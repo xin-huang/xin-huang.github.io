@@ -24,6 +24,7 @@ If there are $k$ types of individuals in the population, and each type has diffe
 and \begin{equation}N_{t+1}=\bar{w}N_t.\end{equation}
 
 If $\bar{w}$ is not constant, let $\bar{w}_t$ be the average fitness at time, we have 
+
 \begin{equation}
     \begin{aligned}
         N_t&=\bar{w}_{t-1}N_{t-1}\\
