@@ -23,9 +23,17 @@ Let $N_t$ be the number of individual in the population at time $t$, and $w$ be 
 
 Therefore, if $N_0$ is the number of individual in the population at time 0, then \begin{equation}N_t=N_0w^t.\end{equation}
 
-If there are $k$ types of individuals in the population, and each type has different fitness (they have different number of progeny), then we can replace $w$ with $\bar{w}$, which is the average fitness of individuals in the population. Let $n_k$ be the number of the $k$-th type individual, and $w_k$ be its fitness, then the total number of individual in the population $N=\sum_k n_k$, and the average fitness is: \begin{equation}\bar{w}=\frac{\sum_k w_kn_k}{N},\end{equation}
+If there are $k$ types of individuals in the population, and each type has different fitness (they have different number of progeny), then we can replace $w$ with $\bar{w}$, which is the average fitness of individuals in the population. Let $n_k$ be the number of the $k$-th type individual, and $w_k$ be its fitness, then the total number of individual in the population $N=\sum_k n_k$, and the average fitness is: 
 
-and \begin{equation}N_{t+1}=\bar{w}N_t.\end{equation}
+\begin{align\*}
+    \bar{w}=\frac{\sum_k w_kn_k}{N},
+\end{align\*}
+
+and 
+
+\begin{align\*}
+    N_{t+1}=\bar{w}N_t.
+\end{align\*}
 
 If $\bar{w}$ is not constant, let $\bar{w}_t$ be the average fitness at time $t$, we have 
 
