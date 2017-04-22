@@ -51,9 +51,9 @@ In this model, we assume the generation time is continuous. For example, individ
 
 As $\Delta t\rightarrow 0$, we have 
 
-\begin{align\*}
+\begin{equation}
     \frac{dN}{dt}=mN,
-\end{align\*} 
+\end{equation} 
     
 where $m=b-d$, which is the **Malthusian parameter** measuring fitness of individuals in the continuous time model.
 
@@ -79,15 +79,27 @@ If $\bar{m}$ is not constant, we can break the time into $k$ intervals, and $\ba
 
 where $\bar{\bar{m}}=\sum_k\bar{m}_k\Delta t_k/t$.
 
-Eq. 2 tells us that a population will grow **exponentially** if no constraints exist. This is not true in reality. For example, the environment can only provide limited food for the population. As the population grows larger, each individual will obtain less food. Therefore, the population cannot grow up infinitily.
+Eq. 3 tells us that a population will grow **exponentially** if no constraints exist. This is not true in reality. For example, the environment can only provide limited food for the population. As the population grows larger, each individual will obtain less food. Therefore, the population cannot grow up infinitily. To model regulation of population number, a simple way is to add a term into $-N/K$ into Eq. 2. Then we have
+
+\begin{align\*}
+    \frac{dN}{dt}=mN-\frac{N}{K}.
+\end{align\*}
+
+Integrating the above equation, we obtain
+
+\begin{align\*}
+    N_t = \frac{K}{1+C_0e^{-rt}},
+\end{align\*}
+
+and $C_0=(K-N_0)/N_0$.
 
 ## Relation between $w$ and $m$
 
-As we have seen, $w$ and $m$ measure fitness of individuals in the discrete and continuous time models, respectively. Fitness is an important parameter when we discuss natural selection. Following Crow and Kimura, we can call $w$ the **fitness** or the **Wrightian fitness**^1. To connect these two terms, we can let $w=e^m$ or $m=\ln w$, then the two formulae $N_t=N_0w^t$ and $N_t=N_0e^{mt}$ are equivalent.
+As we have seen, $w$ and $m$ measure fitness of individuals in the discrete and continuous time models, respectively. Fitness is an important parameter when we discuss natural selection. Following Crow and Kimura, we can call $w$ the **fitness** or the **Wrightian fitness**<sup>1</sup>. To connect these two terms, we can let $w=e^m$ or $m=\ln w$, then the two formulae $N_t=N_0w^t$ and $N_t=N_0e^{mt}$ are equivalent.
 
 Morever, we can let $w=1+s$. If $s$ is very small, such as 0.01, then $w\approx 1$. Because $m=\ln w=\ln(1+s)\approx s$, when $w\approx 1$. We will find $s$ is the **selection coefficient** when we discuss natural selection.
 
 ## Stochastic models
 
 ## References
-1. Crow JF and Kimura M. *An Introduction to Population Genetics Theory*.
+1. Crow JF and Kimura M. 2009. *An Introduction to Population Genetics Theory*. The Blackburn Press, New Jersey.
