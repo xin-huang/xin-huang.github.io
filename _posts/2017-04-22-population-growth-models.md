@@ -17,8 +17,8 @@ In this model, we assume the generation time is discrete. This means the old gen
 
 Let $N_t$ be the number of individual in the population at time $t$, and $w$ be the average number of progeny per individual (also the measure of the fitness of an individual), then the number of individual in the population at time $t+1$ is: 
 
-$$N_{t+1}=wN_t.$$
-    
+$N_{t+1}=wN_t.$
+
 Therefore, if $N_0$ is the number of individual in the population at time 0, then \begin{equation}N_t=N_0w^t.\end{equation}
 
 If there are $k$ types of individuals in the population, and each type has different fitness (they have different number of progeny), then we can replace $w$ with $\bar{w}$, which is the average fitness of individuals in the population. Let $n_k$ be the number of the $k$-th type individual, and $w_k$ be its fitness, then the total number of individual in the population $N=\sum_k n_k$, and the average fitness is: \begin{equation}\bar{w}=\frac{\sum_k w_kn_k}{N},\end{equation}
