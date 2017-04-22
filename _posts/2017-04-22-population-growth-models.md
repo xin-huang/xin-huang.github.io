@@ -79,7 +79,7 @@ If $\bar{m}$ is not constant, we can break the time into $k$ intervals, and $\ba
 
 where $\bar{\bar{m}}=\sum_k\bar{m}_k\Delta t_k/t$.
 
-Eq. 3 tells us that a population will grow **exponentially** if no constraints exist. This is not true in reality. For example, the environment can only provide limited food for the population. As the population grows larger, each individual will obtain less food. Therefore, the population cannot grow up infinitily. To model regulation of population number, a simple way is to add a term into $-N/K$ into Eq. 2. This term will reduce the rate of increase as N becomes larger. Then we have
+Eq. 3 tells us that a population will grow **exponentially** if no constraints exist. This is not true in reality. For example, the environment can only provide limited food for the population. As the population grows larger, each individual will obtain less food. Therefore, the population cannot grow up infinitily. To model regulation of population number, a simple way is to add a term into $-N/K$ into Eq. 2. This term will reduce the rate of increase as $N$ becomes large. Then we have
 
 \begin{align\*}
     \frac{dN}{dt}=mN-\frac{N}{K}.
