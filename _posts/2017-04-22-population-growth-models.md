@@ -43,13 +43,33 @@ If $\bar{w}$ is not constant, let $\bar{w}_t$ be the average fitness at time $t$
         
 ## Continuous time model
 
-In this model, we assume the generation time is continuous. For example, individuals with different ages in human populations can reproduce new individuals or die. Let $b$ and $d$ be the birth and death rates of the population in a small time $\Delta t$, respectively. Then in $\Delta t$, the change of the population number is: \begin{equation}\Delta N_t=(b-d)N_t\Delta t.\end{equation}
+In this model, we assume the generation time is continuous. For example, individuals with different ages in human populations can reproduce new individuals or die. Let $b$ and $d$ be the birth and death rates of the population in a small time $\Delta t$, respectively. Then in $\Delta t$, the change of the population number is: 
 
-As $\Delta t\rightarrow 0$, we have \begin{equation}\frac{dN}{dt}=mN,\end{equation} where $m=b-d$, which is the **Malthusian parameter** measuring fitness of individuals in the continuous time model.
+\begin{align\*}
+    \Delta N_t=(b-d)N_t\Delta t.
+\end{align\*}
+
+As $\Delta t\rightarrow 0$, we have 
+
+\begin{align\*}
+    \frac{dN}{dt}=mN,
+\end{align\*} 
+    
+where $m=b-d$, which is the **Malthusian parameter** measuring fitness of individuals in the continuous time model.
 
 Therefore, \begin{equation}N_t=N_0e^{mt}.\end{equation}
 
-Like in the discrete time model, if different types of individuals have different fitnesses, we can measure the average fitness of the population as: \begin{equation}\bar{m}=\frac{\sum_k m_kn_k}{N},\end{equation} and \begin{equation}\frac{dN}{dt}=\bar{m}N.\end{equation}
+Like in the discrete time model, if different types of individuals have different fitnesses, we can measure the average fitness of the population as: 
+
+\begin{align\*}
+    \bar{m}=\frac{\sum_k m_kn_k}{N},
+\end{align\*} 
+
+and 
+
+\begin{align\*}
+    \frac{dN}{dt}=\bar{m}N.
+\end{align\*}
 
 If $\bar{m}$ is not constant, we can break the time into $k$ intervals, and $\bar{m}_k$ is constant in the $k$-th interval. We then have 
 
