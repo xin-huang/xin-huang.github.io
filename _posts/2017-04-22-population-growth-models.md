@@ -23,7 +23,14 @@ If there are $k$ types of individuals in the population, and each type has diffe
 
 and \begin{equation}N_{t+1}=\bar{w}N_t.\end{equation}
 
-If $\bar{w}$ is not constant, let $\bar{w}_t$ be the average fitness at time *t*, we have \begin{equation}\begin{aligned}N_t&=\bar{w}_{t-1}N_{t-1}\\&=\bar{w}_{t-1}\bar{w}_{t-2}N_{t-2}\\&=N_0\prod_{i=0}^{t-1}\bar{w}_i.\end{aligned}\end{equation}
+If $\bar{w}$ is not constant, let $\bar{w}_t$ be the average fitness at time $t$, we have 
+\begin{equation}
+    \begin{aligned}
+        N_t&=\bar{w}_{t-1}N_{t-1}\\
+        &=\bar{w}_{t-1}\bar{w}_{t-2}N_{t-2}\\
+        &=N_0\prod_{i=0}^{t-1}\bar{w}_i.
+    \end{aligned}
+\end{equation}
         
 ### Continuous time model
 
