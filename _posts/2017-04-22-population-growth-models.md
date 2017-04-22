@@ -5,13 +5,13 @@ date: 2017-04-22
 use_math: true
 ---
 
-In population genetics, we use mathematical models to describe how population grows as time goes on. We can divide these models into two categories--deterministic and stochastic--based on whether we consider random factors or not. If we neglect random factors and assume the population has infinite number of individuals, then we build up determinsitic models. If we can't neglect random factors because the population has finite number of individuals, which is a more realistic scenario, we have to think about stochastic models.
+In population genetics, we use mathematical models to describe how a population grows as time goes on. We can divide these models into two categories--deterministic and stochastic--based on whether we consider random factors or not. If we neglect random factors and assume the population has infinite number of individuals, then we build up determinsitic models. If we cannot ignore random factors because the population has finite number of individuals, which is a more realistic scenario, we have to think about stochastic models.
 
 ## Deterministic models
 
 ## Discrete time model
 
-In this model, we assume the generation time is discrete. This means the old generation die out after they give birth to the new generation, like silkworm.
+In this model, we assume the generation time is discrete. This means the old generation die out after they give birth to the new generation, like silkworms.
     
 ![img](http://www.cdfd.org.in/SILKSAT/img/lifecycle.jpg){: .center-image }
 
@@ -78,6 +78,8 @@ If $\bar{m}$ is not constant, we can break the time into $k$ intervals, and $\ba
 \end{align\*}
 
 where $\bar{\bar{m}}=\sum_k\bar{m}_k\Delta t_k/t$.
+
+Eq. 2 tells us that a population will grow **exponentially** if no constraints exist. This is not true in reality. For example, the environment can only provide limited food for the population. As the population grows larger, each individual will obtain less food. Therefore, the population cannot grow up infinitily.
 
 ## Relation between $w$ and $m$
 
