@@ -15,7 +15,9 @@ In this model, we assume the generation time is discrete. This means the old gen
     
 ![img](http://www.cdfd.org.in/SILKSAT/img/lifecycle.jpg)
 
-Let $N_t$ be the number of individual in the population at time $t$, and $w$ be the average number of progeny per individual (also the measure of the fitness of an individual), then the number of individual in the population at time $t+1$ is: $$N_{t+1}=wN_t.$$
+Let $N_t$ be the number of individual in the population at time $t$, and $w$ be the average number of progeny per individual (also the measure of the fitness of an individual), then the number of individual in the population at time $t+1$ is: 
+
+$$N_{t+1}=wN_t.$$
     
 Therefore, if $N_0$ is the number of individual in the population at time 0, then \begin{equation}N_t=N_0w^t.\end{equation}
 
