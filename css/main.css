@@ -4,7 +4,6 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 12px
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -44,7 +43,7 @@ ul.posts li {
     list-style: none;
 }
 
-ul li, ol li {
+ol li {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
