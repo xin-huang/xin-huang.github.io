@@ -13,7 +13,7 @@ In population genetics, we use mathematical models to describe how population gr
 
 In this model, we assume the generation time is discrete. This means the old generation die out after they give birth to the new generation, like silkworm.
     
-![img](http://www.cdfd.org.in/SILKSAT/img/lifecycle.jpg)
+![img](http://www.cdfd.org.in/SILKSAT/img/lifecycle.jpg){: .center-image }
 
 Let $N_t$ be the number of individual in the population at time $t$, and $w$ be the average number of progeny per individual (also the measure of the fitness of an individual), then the number of individual in the population at time $t+1$ is: 
 
