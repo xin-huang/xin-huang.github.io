@@ -32,7 +32,6 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    align-items: center;
 }
 
 ul.posts { 
@@ -61,4 +60,8 @@ ol li {
     font-family: STFangsong;
     font-size: 16px;
     text-align: center;
+}
+
+i {
+    align-items: center;
 }
