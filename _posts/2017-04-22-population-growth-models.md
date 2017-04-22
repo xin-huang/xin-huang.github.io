@@ -43,13 +43,11 @@ Like in the discrete time model, if different types of individuals have differen
 
 If $\bar{m}$ is not constant, we can break the time into $k$ intervals, and $\bar{m}_k$ is constant in the $k$-th interval. We then have 
 
-$$
-    \begin{align}
-        N_t&=N_0e^{\bar{m}_1\Delta t_1}e^{\bar{m}_2\Delta t_2}\cdots e^{\bar{m}_k\Delta t_k} \\\\
-        &=N_0e^{\sum_k\bar{m}_k\Delta t_k} \\\\
-        &=N_0e^{\bar{\bar{m}}t},
-    \end{align}
-$$
+\begin{align}
+    N_t&=N_0e^{\bar{m}_1\Delta t_1}e^{\bar{m}_2\Delta t_2}\cdots e^{\bar{m}_k\Delta t_k} \\\\
+    &=N_0e^{\sum_k\bar{m}_k\Delta t_k} \\\\
+    &=N_0e^{\bar{\bar{m}}t},
+\end{align}
 
 where $\bar{\bar{m}}=\sum_k\bar{m}_k\Delta t_k/t$.
 
