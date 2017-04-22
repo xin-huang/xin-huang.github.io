@@ -2,6 +2,7 @@
 layout: post
 title: Population Growth Models
 date: 2017-04-22
+use_math: true
 ---
 
 In population genetics, we use mathematical models to describe how population grows as time goes on. We can divide these models into two categories--deterministic and stochastic--based on whether we consider random factors or not. If we neglect random factors and assume the population has infinite number of individuals, then we build up determinsitic models. If we can't neglect random factors because the population has finite number of individuals, which is a more realistic scenario, we have to think about stochastic models.
