@@ -56,7 +56,8 @@ ul li, ol li {
 
 .poem
 {
+    display: inline;
     font-family: STFangsong;
     font-size: 16px;
-    text-align: right;
+    text-align: center;
 }
