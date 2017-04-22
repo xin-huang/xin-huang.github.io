@@ -21,7 +21,7 @@ Therefore, if $N_0$ is the number of individual in the population at time 0, the
 
 If there are $k$ types of individuals in the population, and each type has different fitness (they have different number of progeny), then we can replace $w$ with $\bar{w}$, which is the average fitness of individuals in the population. Let $n_k$ be the number of the $k$-th type individual, and $w_k$ be its fitness, then the total number of individual in the population $N=\sum_k n_k$, and the average fitness is: \begin{equation}\bar{w}=\frac{\sum_k w_kn_k}{N},\end{equation}
 
-and $$N_{t+1}=\bar{w}N_t.$$
+and \begin{equation}N_{t+1}=\bar{w}N_t.\end{equation}
 
 If $\bar{w}$ is not constant, let $\bar{w}_t$ be the average fitness at time $t$, we have \begin{equation}\begin{aligned}N_t&=\bar{w}_{t-1}N_{t-1}\\&=\bar{w}_{t-1}\bar{w}_{t-2}N_{t-2}\\&=N_0\prod_{i=0}^{t-1}\bar{w}_i.\end{aligned}\end{equation}
         
@@ -29,11 +29,11 @@ If $\bar{w}$ is not constant, let $\bar{w}_t$ be the average fitness at time $t$
 
 In this model, we assume the generation time is continuous. For example, individuals with different ages in human populations can reproduce new individuals or die. Let $b$ and $d$ be the birth and death rates of the population in a small time $\Delta t$, respectively. Then in $\Delta t$, the change of the population number is: \begin{equation}\Delta N_t=(b-d)N_t\Delta t.\end{equation}
 
-As $\Delta t\rightarrow 0$, we have $$\frac{dN}{dt}=mN,$$ where $m=b-d$, which is the **Malthusian parameter** measuring fitness of individuals in the continuous time model.
+As $\Delta t\rightarrow 0$, we have \begin{equation}\frac{dN}{dt}=mN,\end{equation} where $m=b-d$, which is the **Malthusian parameter** measuring fitness of individuals in the continuous time model.
 
 Therefore, \begin{equation}N_t=N_0e^{mt}.\end{equation}
 
-Like in the discrete time model, if different types of individuals have different fitnesses, we can measure the average fitness of the population as: $$\bar{m}=\frac{\sum_k m_kn_k}{N},$$ and $$\frac{dN}{dt}=\bar{m}N.$$
+Like in the discrete time model, if different types of individuals have different fitnesses, we can measure the average fitness of the population as: \begin{equation}\bar{m}=\frac{\sum_k m_kn_k}{N},\end{equation} and \begin{equation}\frac{dN}{dt}=\bar{m}N.\end{equation}
 
 If $\bar{m}$ is not constant, we can break the time into $k$ intervals, and $\bar{m}_k$ is constant in the $k$-th interval. We then have $$\begin{aligned}N_t&=N_0e^{\bar{m}_1\Delta t_1}e^{\bar{m}_2\Delta t_2}\cdots e^{\bar{m}_k\Delta t_k}\\&=N_0e^{\sum_k\bar{m}_k\Delta t_k}\\&=N_0e^{\bar{\bar{m}}t},\end{aligned}$$
 
