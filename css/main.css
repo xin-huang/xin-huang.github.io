@@ -47,3 +47,10 @@ ul.posts li {
     margin: 0 auto;
     display: block;
 }
+
+.poem
+{
+    font-family: MingLiu;
+    font-size: 11px;
+    text-align: right;
+}
