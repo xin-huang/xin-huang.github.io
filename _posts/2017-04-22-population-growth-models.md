@@ -83,10 +83,11 @@ Eq. 2 tells us that a population will grow **exponentially** if no constraints e
 
 ## Relation between $w$ and $m$
 
-As we have seen, $w$ and $m$ measure fitness of individuals in the discrete and continuous time models, respectively. Fitness is an important parameter when we discuss natural selection. To connect these two terms, we can let $w=e^m$ or $m=\ln w$, then the two formulae $N_t=N_0w^t$ and $N_t=N_0e^{mt}$ are equivalent.
+As we have seen, $w$ and $m$ measure fitness of individuals in the discrete and continuous time models, respectively. Fitness is an important parameter when we discuss natural selection. Following Crow and Kimura, we can call $w$ the **fitness** or the **Wrightian fitness**^1. To connect these two terms, we can let $w=e^m$ or $m=\ln w$, then the two formulae $N_t=N_0w^t$ and $N_t=N_0e^{mt}$ are equivalent.
 
 Morever, we can let $w=1+s$. If $s$ is very small, such as 0.01, then $w\approx 1$. Because $m=\ln w=\ln(1+s)\approx s$, when $w\approx 1$. We will find $s$ is the **selection coefficient** when we discuss natural selection.
 
 ## Stochastic models
 
 ## References
+1. Crow JF and Kimura M. *An Introduction to Population Genetics Theory*.
