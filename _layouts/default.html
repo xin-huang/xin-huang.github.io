@@ -6,6 +6,7 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
             <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="/css/academicons-1.7.0/css/academicons.css"/>
+            <link rel="stylesheet" href="/css/font-awesome-colors.css">
             {% if page.use_math %}
                 {% include mathjax_support.html %}
             {% endif %}
@@ -15,7 +16,6 @@
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
                     <li><a href="/notes">Notes</a></li>
-                    <li><a href="/videos/">Videos</a></li>
 				    <li><a href="/cv/MyCV.pdf">CV</a></li>
 	    		</ul>
 			</nav>
@@ -28,13 +28,22 @@
 	    		<ul  style="text-align: center">
                     {% if site.github_username %}
 	        		<li><a href="https://github.com/{{ site.github_username }}">
-                        <i class="fa fa-github fa-2x"></i></a></li>
+                        <i class="fa fa-color fa-github fa-2x"></i></a></li>
                     {% endif %}
+                    {% if site.researchgate_username %}
 				    <li><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
                         <i class="ai ai-researchgate ai-2x"></i></a></li>
+                    {% endif %}
+                    {% if site.orcid %}
 				    <li><a href="http://orcid.org/{{ site.orcid }}">
                         <i class="ai ai-orcid ai-2x"></i></a></li>
-                    <p class="poem">殘聲憑燭捻韶光，半掩孤幃懸錦囊。滿樹凋零無寄處，獨吟蕭索倦痴狂。</p>
+                    {% endif %}
+                    {% if site.linkedin_username %}
+                    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fa fa-color fa-linkedin fa-2x"></a></li>
+                    {% endif %}
+                    <p class="poem">殘聲憑燭捻韶光，半掩孤幃懸錦囊。</p>
+                    <p class="poem">滿樹凋零無寄處，獨吟蕭索倦痴狂。</p>
                 </ul>
 			</footer>
 		</body>
