@@ -11,17 +11,12 @@ notes: active
 				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
 			</info></h2>
             
-            <div>
-                <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <!-- Place this tag where you want the share button to render. -->
-                <div class="g-plus" data-action="share"></div>
-                <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
-            </div>
-            
             <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
                 <a class="a2a_button_facebook"></a>
-                <a class="a2a_button_twitter"></a>
                 <a class="a2a_button_google_plus"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_sina_weibo"></a>
+                <a class="a2a_button_wechat"></a>
                 <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
             </div>
             
@@ -33,15 +28,6 @@ notes: active
 			<div class="noteinfo">
 			<!-- include some categories and tags maybe? -->
 			</div>
-            
-            <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=290580508051563";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
 
 			<hr>
 
