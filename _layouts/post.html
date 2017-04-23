@@ -10,6 +10,11 @@ notes: active
 			<h2 class="date"><info datetime="{{ page.date }}">
 				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
 			</info></h2>
+            
+            <div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            
 			<!-- Post content -->
 			<div class="notebody">
 				{{ content }}
