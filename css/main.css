@@ -12,7 +12,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
     align-items: center;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
 }
 a {
     text-decoration: none;
@@ -39,6 +38,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
 }
 
 ul.posts li {
@@ -49,6 +49,7 @@ ol li {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
 }
 
 .center-image
