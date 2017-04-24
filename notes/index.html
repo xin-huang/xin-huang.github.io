@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: 征辰台
 ---
 
 <div class="posts">
@@ -32,55 +32,22 @@ title: Blog
   {% endfor %}
 </div>
 
-<!-- pagination (a page1 folder isn't created by Jekyll.
-To avoid 404s when going to the first page it must be
-specified separately) -->
-
 <div class="pagination">
-  <ul>
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <li>
-          <a href="/">&laquo;</a>
-        </li>
-      {% else %}
-        <li>
-          <a href="/page{{paginator.previous_page}}">&laquo;</a>
-        </li>
-      {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/notes/page{{paginator.next_page}}"><i class="fa fa-color fa-backward fa-2x" aria-hidden="true"></i></a>
+  {% else %}
+    <span class="pagination-item older"><i class="fa fa-color fa-backward fa-2x" aria-hidden="true"></i></span>
+  {% endif %}
+
+    <span class="pagination-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/notes/"><i class="fa fa-color fa-forward fa-2x" aria-hidden="true"></i></a>
     {% else %}
-      <li class="disabled">
-        <a href="#">&laquo;</a>
-      </li>
+      <a class="pagination-item newer" href="{{ site.baseurl }}/notes/page{{paginator.previous_page}}"><i class="fa fa-color fa-forward fa-2x" aria-hidden="true"></i></a>
     {% endif %}
-    {% if paginator.page == 1 %}
-      <li class="active">
-        <a href="#">1</a>
-      </li>
-    {% else %}
-      <li>
-        <a href="/">1</a>
-      </li>
-    {% endif %}
-    {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-        <li class="active">
-          <a href="#">{{count}}</a>
-        </li>
-      {% else %}
-        <li>
-          <a href="/page{{count}}">{{count}}</a>
-        </li>
-      {% endif %}
-    {% endfor %}
-    {% if paginator.next_page %}
-      <li>
-        <a href="/page{{paginator.next_page}}">&raquo;</a>
-      </li>
-    {% else %}
-      <li class="disabled">
-        <a href="#">&raquo;</a>
-      </li>
-    {% endif %}
-  </ul>
+  {% else %}
+    <span class="pagination-item newer"><i class="fa fa-color fa-forward fa-2x" aria-hidden="true"></i></span>
+  {% endif %}
 </div>

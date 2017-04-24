@@ -3,7 +3,7 @@ layout: post
 title: Population Growth Models
 date: 2017-04-22
 category: population genetics
-tags: [population genetics,]
+tags: [Population genetics,]
 use_math: true
 ---
 
