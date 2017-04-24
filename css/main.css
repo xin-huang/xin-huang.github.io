@@ -87,6 +87,11 @@ div ul li, ol li {
 
 .pagination a {
     margin: auto;
+    color: #dad8de;
+}
+
+.pagination:hover {
+    color: #a6ce39;
     transition: color .25s;
 }
 
