@@ -4,49 +4,56 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="/css/academicons-1.7.0/css/academicons.css"/>
-            <link rel="stylesheet" href="/css/font-awesome-colors.css">
-            <link rel="stylesheet" href="/css/academic-icons-colors.css">
-            <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
-            {% if page.use_math %}
-                {% include mathjax_support.html %}
-            {% endif %}
+            		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            		<link rel="stylesheet" href="/css/academicons-1.7.0/css/academicons.css"/>
+            		<link rel="stylesheet" href="/css/font-awesome-colors.css">
+            		<link rel="stylesheet" href="/css/academic-icons-colors.css">
+            		<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+			<meta charset="utf-8">
+            		{% if page.use_math %}
+                		{% include mathjax_support.html %}
+            		{% endif %}
 		</head>
 		<body>
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-                    <li><a href="/notes">Notes</a></li>
-				    <li><a href="/cv/MyCV.pdf">CV</a></li>
+                    		<li><a href="/notes">Notes</a></li>
+				<li><a href="/cv/MyCV.pdf">CV</a></li>
 	    		</ul>
 			</nav>
+
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
+
 			<footer>
-	    		<ul  style="text-align: center">
-                    {% if site.github_username %}
-	        		<li><a href="https://github.com/{{ site.github_username }}">
-                        <i class="fa fa-color fa-github fa-2x"></i></a></li>
-                    {% endif %}
-                    {% if site.researchgate_username %}
-				    <li><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
-                        <i class="ai ai-color ai-researchgate ai-2x"></i></a></li>
-                    {% endif %}
-                    {% if site.orcid %}
-				    <li><a href="http://orcid.org/{{ site.orcid }}">
-                        <i class="ai ai-color ai-orcid ai-2x"></i></a></li>
-                    {% endif %}
-                    {% if site.linkedin_username %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-                        <i class="fa fa-color fa-linkedin fa-2x"></i></a></li>
-                    {% endif %}
-                    <p class="poem">夢瑣瓊樓枕無憂，千古流芳別寒秋。</p>
-                    <p class="poem">夕照雲舟恨歸晚，幾度爭鋒幾度休。</p>
-                </ul>
+	    			<ul  style="text-align: center">
+                    			{% if site.github_username %}
+	        			<li><a href="https://github.com/{{ site.github_username }}">
+                        			<i class="fa fa-color fa-github fa-2x"></i>
+					</a></li>
+                    			{% endif %}
+                    			{% if site.researchgate_username %}
+				    	<li><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
+                        			<i class="ai ai-color ai-researchgate ai-2x"></i>
+					</a></li>
+                    			{% endif %}
+                    			{% if site.orcid %}
+				    	<li><a href="http://orcid.org/{{ site.orcid }}">
+                        			<i class="ai ai-color ai-orcid ai-2x"></i>
+					</a></li>
+                    			{% endif %}
+                    			{% if site.linkedin_username %}
+                    			<li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                        			<i class="fa fa-color fa-linkedin fa-2x"></i>
+					</a></li>
+                    			{% endif %}
+                    			<p class="poem">夢瑣瓊樓枕無憂，千古流芳別寒秋。</p>
+                    			<p class="poem">夕照雲舟恨歸晚，幾度爭鋒幾度休。</p>
+                		</ul>
 			</footer>
 		</body>
 	</html>
