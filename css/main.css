@@ -89,6 +89,10 @@ div ul li, ol li {
     margin: auto;
 }
 
+.pagination a:hover {
+    background-color: #a6ce39;
+}
+
 .pagination span {
     margin: auto;
 }
