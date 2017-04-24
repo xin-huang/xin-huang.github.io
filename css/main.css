@@ -45,8 +45,8 @@ ul.posts li {
     list-style: none;
 }
 
-ol li {
-    font-size: 1.5em;
+div ul li, ol li {
+    font-size: 1.2em;
     line-height: 1.4em;
     color: #333;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
@@ -64,6 +64,10 @@ ol li {
     font-family: STFangsong;
     font-size: 16px;
     text-align: center;
+}
+
+.self {
+    font-size: 14px;
 }
 
 td i {
