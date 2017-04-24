@@ -1,6 +1,31 @@
 name: Xin Huang
 markdown: kramdown
+
+# accounts
 github_username: xin-huang
 orcid: 0000-0002-9918-9602
 researchgate_username: Xin_Huang39
 linkedin_username: xin-huang-96897885
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 2
+paginate_path: '/notes/page:num'
+permalink: pretty
+
+# Where are tags and categories displayed
+tag_page: '/notes/tags/'
+category_page: '/notes/categories/'
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token:  # leave blank if you don't want google analytics
+disqus_short_name: 'xin-huang' # leave blank if you don't want disqus

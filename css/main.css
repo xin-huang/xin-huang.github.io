@@ -38,7 +38,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.3em;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑', 'Unibit';
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
 }
 
 ul.posts li {
@@ -61,17 +61,41 @@ div ul li, ol li {
 
 .poem
 {
-    font-family: STFangsong;
+    font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong';
     font-size: 16px;
     text-align: center;
 }
 
-.self {
+.self 
+{
     font-size: 14px;
 }
 
-.cover {
+.cover 
+{
     margin: 0 auto;
     display: block;
     width: 80%;
+}
+
+.pagination
+{
+    text-align: center;
+    padding: 2px;
+    display: inline;
+}
+
+.pagination-item.older 
+{
+    margin: auto;
+}
+
+.pagination-number
+{
+    margin: auto;
+}
+
+.pagination-item.newer
+{
+    margin: auto;
 }
