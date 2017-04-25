@@ -27,5 +27,5 @@ category_page: '/notes/categories/'
 
 # Puglins
 mathjax: true # whether support mathjax
-google_analytics_token:  # leave blank if you don't want google analytics
+google_analytics_token: UA-97983085-1 # leave blank if you don't want google analytics
 disqus_short_name: 'xin-huang' # leave blank if you don't want disqus
