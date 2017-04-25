@@ -103,16 +103,6 @@ div ul li, ol li {
     color: #a6ce39;
 }
 
-/*.pagination:hover {
-    color: #a6ce39;
-    transition: color .25s;
-}
-
-.pagination:hover a {
-    color: #a6ce39;
-}
-*/
-
 .pagination span {
     margin: auto;
 }

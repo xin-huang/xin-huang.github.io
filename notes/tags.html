@@ -16,9 +16,9 @@ title: Tags
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>{{ post.title }}
-          <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
+          <li><span class="tags-list">{{ post.title }}
+          <small class="post-date">{{ post.date | date_to_string }}</small></span>
+          </li>
       </a>
       {% endfor %}
     </ul>
