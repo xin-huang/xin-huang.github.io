@@ -34,20 +34,20 @@ title: 征辰台
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}/notes/page{{paginator.next_page}}"><i class="fa fa-color fa-backward fa-2x" aria-hidden="true"></i></a>
+    <a class="pagination-item" href="{{ site.baseurl }}/notes/page{{paginator.next_page}}"><i class="fa fa-color fa-backward" aria-hidden="true"></i></a>
   {% else %}
-    <span><i class="fa fa-color fa-backward fa-2x" aria-hidden="true"></i></span>
+    <span><i class="fa fa-color fa-backward" aria-hidden="true"></i></span>
   {% endif %}
 
-    <span>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="pagination-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a href="{{ site.baseurl }}/notes/"><i class="fa fa-color fa-forward fa-2x" aria-hidden="true"></i></a>
+      <a class="pagination-item" href="{{ site.baseurl }}/notes/"><i class="fa fa-color fa-forward" aria-hidden="true"></i></a>
     {% else %}
-      <a href="{{ site.baseurl }}/notes/page{{paginator.previous_page}}"><i class="fa fa-color fa-forward fa-2x" aria-hidden="true"></i></a>
+      <a class="pagination-item" href="{{ site.baseurl }}/notes/page{{paginator.previous_page}}"><i class="fa fa-color fa-forward" aria-hidden="true"></i></a>
     {% endif %}
   {% else %}
-    <span><i class="fa fa-color fa-forward fa-2x" aria-hidden="true"></i></span>
+    <span><i class="fa fa-color fa-forward" aria-hidden="true"></i></span>
   {% endif %}
 </div>

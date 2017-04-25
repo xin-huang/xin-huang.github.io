@@ -45,6 +45,10 @@ ul.posts li {
     list-style: none;
 }
 
+div {
+    margin: 10px;
+}
+
 div ul li, ol li {
     font-size: 1.2em;
     line-height: 1.4em;
@@ -81,7 +85,7 @@ div ul li, ol li {
 /* ------- pagination -------- */
 
 .pagination {
-    height: 36px;
+    top: 100px;
     text-align: center;
 }
 
@@ -90,7 +94,16 @@ div ul li, ol li {
     color: #dad8de;
 }
 
-.pagination:hover {
+.pagination-item:hover {
+    color: #a6ce39;
+    transition: color .25s;
+}
+
+.pagination-item:hover a {
+    color: #a6ce39;
+}
+
+/*.pagination:hover {
     color: #a6ce39;
     transition: color .25s;
 }
@@ -98,7 +111,12 @@ div ul li, ol li {
 .pagination:hover a {
     color: #a6ce39;
 }
+*/
 
 .pagination span {
     margin: auto;
+}
+
+.pagination-number {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
