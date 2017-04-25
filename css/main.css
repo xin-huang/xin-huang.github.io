@@ -75,6 +75,18 @@ div ul li, ol li {
     font-size: 14px;
 }
 
+/* ------ cover ------ */
+.cover-image
+{
+    text-align: center;
+}
+
+.cover-image span
+{
+    margin: auto;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 .cover 
 {
     margin: 0 auto;
@@ -82,10 +94,11 @@ div ul li, ol li {
     width: 80%;
 }
 
+
+
 /* ------- pagination -------- */
 
 .pagination {
-    top: 100px;
     text-align: center;
 }
 
