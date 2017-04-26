@@ -123,3 +123,10 @@ div ul li, ol li {
 .pagination-number {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+
+
+iframe
+{
+    margin: 0 auto;
+    display: block;
+}
