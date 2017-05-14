@@ -13,7 +13,7 @@ Here, I record several notes for optimizing performance of Java programs.
 
 ## Parsing String
 
-
+In my daily work, a usual task is to parse data from a big file. I usually read data as String and use `String.split()` to parse data. However, this approach is slow, because a pattern is built repeatly inside `String.split()`. To speed up, we can build the pattern first and use `Pattern.split()`. A faster way is to use `StringTokenizer`, which would return tokens according to the given String and delimiter. The fastest way I found is to use `String.IndexOf()` to find out the indices of delimiters, and use `String.substring()` to extract data between two delimiters.
 
 ## Concurrency
 
@@ -30,6 +30,6 @@ Java provides many concurrency utilities:
 
 ## Profiler
 
-Usually, I want to know how long my program runs and how much memory it consumes. A naive approach to obtain these information is use some functions provided in Java, such as `System.currentTimeMillis()`, `System.nanoTime()`. However, this approach can only provide rough estimations of performance. A more precise way is to use [HProf](http://docs.oracle.com/javase/7/docs/technotes/samples/hprof.html), a built-in tool in JDK for profile. However, it is not easy to trace the information provided by this profiler.
+Usually, I want to know how long my program runs and how much memory it consumes. A naive approach to obtain these information is use some functions provided in Java, such as `System.currentTimeMillis()`, `System.nanoTime()`. However, this approach can only provide rough estimations of performance. A more precise way is to use [HProf](http://docs.oracle.com/javase/7/docs/technotes/samples/hprof.html), a built-in tool in JDK for profiling. However, it is not easy to trace information provided by this profiler.
 
-Finally, I found [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) is simple to use with good visualization. It can monitor both local and remote Java programs. This is conveinient for me to test my programs in our server. I think a good profiler is like a good teacher, which can quickly and clearly point out where the problem is, and would save my valuable time.
+Finally, I found [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) is simple to use with good visualization. It can monitor both local and remote JVMs. This is conveinient for me to test my programs in our server. I think a good profiler is like a good teacher, which can quickly and clearly point out where the problem is, and would save my valuable time.
