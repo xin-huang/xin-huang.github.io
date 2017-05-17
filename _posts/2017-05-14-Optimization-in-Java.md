@@ -11,9 +11,11 @@ Here, I record several notes for optimizing performance of Java programs.
 
 <!-- more -->
 
-## Parsing String
+## Read/Write data
 
 In my daily work, a usual task is to parse data from a big file. I usually read data as String and use `String.split()` to parse data. However, this approach is slow, because a pattern is built repeatly inside `String.split()`. To speed up, we can build the pattern first and use `Pattern.split()`. A faster way is to use `StringTokenizer`, which would return tokens according to the given String and delimiter. The fastest way I found is to use `String.IndexOf()` to find out the indices of delimiters, and use `String.substring()` to extract data between two delimiters.
+
+Java provides two packages for reading and writing data: `java.io` and `java.nio`. In `java.io`, we can use `InputStream`/`OutputStream` for reading/writing binary data, such as zipped files. And we use reader/writer for character data, such as text files. It is important to set buffer size for reading/writing data fast. According to [Java Performance: The Definitive Guide](https://www.safaribooksonline.com/library/view/java-performance-the/9781449363512/), always use a `BufferedInputStream`/`BufferedOutputStream` to wrap the underlying file stream for file-based I/O using binary data; and always wrap the underlying stream with a `BufferedReader`/`BufferedWriter` for file-based I/O using character data. Another package `java.nio` provides non-blocking mode for reading/writing data, which means a thread will not become idle when it does reading/writing tasks but haven't got data. Sometimes this mode will increase great performance than blocking mode. According to Javarevisited, the fastest way for reading/writing data in Java is [memory mapped file](http://javarevisited.blogspot.com/2012/01/memorymapped-file-and-io-in-java.html) using `RandomAccessFile`, `FileChannel` and `ByteBuffer` in `java.nio`.
 
 ## Concurrency
 
