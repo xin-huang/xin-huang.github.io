@@ -38,9 +38,19 @@ Finally, I found [JProfiler](https://www.ej-technologies.com/products/jprofiler/
 
 ## Benchmark
 
-For me, there are two reasons to benchmark
+For me, there are two reasons for benchmark:
 
 1. To improve performance of my applications;
-2. To display performance of my applications precisely and robust.
+2. To display performance of my applications precisely and robustly.
 
-However, benchmarking in Java is difficult because the dynamics of JVM components, such as the interpreter, the garbage collector and the JIT-complier. We cannot know how exactly our codes work at runtime. Daniel Mitterdorfer listed several [flaws and dangers of Java microbenchmarks](http://daniel.mitterdorfer.name/articles/2014/benchmarking-flaws/). To overcome these problems, we can use a framework called [JMH](http://openjdk.java.net/projects/code-tools/jmh/) for benchmarking.
+However, benchmarking in Java is difficult because the dynamics of JVM components, such as the interpreter, the garbage collector and the JIT-complier. We cannot know how exactly our codes work at runtime. Daniel Mitterdorfer listed several [flaws and dangers of Java microbenchmarks](http://daniel.mitterdorfer.name/articles/2014/benchmarking-flaws/). To overcome these problems, we can use a framework called [JMH](http://openjdk.java.net/projects/code-tools/jmh/) for benchmark.
+
+I followed [Jakob Jenkov](http://tutorials.jenkov.com/java-performance/jmh.html) to start my first JMH benchmark. After build up `target/benchmarks.jar`, we can change the settings, such as benchmark modes and time units, of JMH using command line. To get the help information, use `java -jar target/benchmarks.jar -h`. To avoid some part of codes being measured, we can use benchmark state classes and state variables. There are some rules for writing good benchmarks:
+
+1. Avoiding loops in benchmark methods in general.
+2. Avoiding dead code elimination using `return` or `blackhole.consume()`.
+3. Avoiding constant folding using state classes.
+
+To learn more examples of JMH benchmarks, we can see the samples in [JMH offical site](http://hg.openjdk.java.net/code-tools/jmh/file/tip/jmh-samples/src/main/java/org/openjdk/jmh/samples/).
+
+[Cruftex.net](https://cruftex.net/2017/03/28/The-6-Memory-Metrics-You-Should-Track-in-Your-Java-Benchmarks.html) proposed 6 memory metrics in Java benchmarks.
