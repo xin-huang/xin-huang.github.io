@@ -35,3 +35,12 @@ Java provides many concurrency utilities:
 Usually, I want to know how long my program runs and how much memory it consumes. A naive approach to obtain these information is use some functions provided in Java, such as `System.currentTimeMillis()`, `System.nanoTime()`. However, this approach can only provide rough estimations of performance. A more precise way is to use [HProf](http://docs.oracle.com/javase/7/docs/technotes/samples/hprof.html), a built-in tool in JDK for profiling. However, it is not easy to trace information provided by this profiler.
 
 Finally, I found [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) is simple to use with good visualization. It can monitor both local and remote JVMs. This is conveinient for me to test my programs in our server. I think a good profiler is like a good teacher, which can quickly and clearly point out where the problem is, and would save my valuable time.
+
+## Benchmark
+
+For me, there are two reasons to benchmark
+
+1. To improve performance of my applications;
+2. To display performance of my applications precisely and robust.
+
+However, benchmarking in Java is difficult because the dynamics of JVM components, such as the interpreter, the garbage collector and the JIT-complier. We cannot know how exactly our codes work at runtime. Daniel Mitterdorfer listed several [flaws and dangers of Java microbenchmarks](http://daniel.mitterdorfer.name/articles/2014/benchmarking-flaws/). To overcome these problems, we can use a framework called [JMH](http://openjdk.java.net/projects/code-tools/jmh/) for benchmarking.
