@@ -2,22 +2,55 @@
 layout: default
 title: Xin Huang
 ---
-<div class="cover-image">
-	<img class="cover" src="images/cover.png">
-	<span><small><strong>Human migration and human pigmentation diversity.</strong> The arrows indicate the direction of human migration, and their color gradient indicates the trends of human skin color.</small></span>
+<div class="row">
+    <div class="column">
+        <p style="font-size: 40px">Xin Huang</p>
+        <p>
+            I completed my Ph.D. in the laboratory of Professor Li Jin at <a href="http://www.picb.ac.cn">CAS-MPG Partner Institute for Computational Biology</a>,
+            where I studied the evolution of human pigmentation.<br><br>
+            Currently, I am a senior scientist at <a href="https://www.wuxinextcode.com">WuXi NextCode Genomics</a>. <br>
+        </p>
+        <p></p>
+        <p class="poem">殘聲憑燭撚韶光<br>半掩孤幃懸錦囊<br>滿樹凋零無寄處<br>獨吟蕭索倦癡狂</p>
+        <p style="text-align: center">
+            {% if site.github_username %}
+               <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-color fa-github fa-2x" aria-hidden=true></i></a>
+            {% endif %}
+            {% if site.researchgate_username %}
+                <a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}"><i class="ai ai-color ai-researchgate ai-2x" aria-hidden=true></i></a>
+            {% endif %}
+            {% if site.orcid %}
+                <a href="http://orcid.org/{{ site.orcid }}"><i class="ai ai-color ai-orcid ai-2x" aria-hidden=true></i></a>
+            {% endif %}
+            {% if site.linkedin_username %}
+                <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-color fa-linkedin fa-2x" aria-hidden=true></i></a>
+            {% endif %}
+        </p>
+    </div>
+    <div class="double-column" id="cover-image">
+        {% include map.html %}
+        <br>
+        <span>
+            <small>
+                <strong>Human migration and human pigmentation diversity<br></strong>
+                The arrows indicate the direction of human migration, and their color gradients indicate the ranges of human skin color around the world.<br>
+                Please move your mouse to the red spots on the map, and take a glance at artworks representing the diversity of human pigmentation from different culture.
+            </small>
+        </span>
+    </div>
 </div>
-<div class="self">
-	<p>Xin Huang</p>
-    	<p>
-		Currently, I completed my Ph.D. in the laboratory of Professor Li Jin at CAS-MPG Partner Institute for Computational Biology.<br>
-		My main research area is population genetics/genomics. I am very interested in:<br>
-			<ul>
-                <li><strong><i>The evolution of complex traits</i></strong><br>
-                    A complex trait—such as the color of human skin, hair, and eye—is a trait that is affected by many genes. How complex traits evolve is a fundamental problem in biology. I have proposed <a href="https://doi.org/10.1101/253963">a new approach</a> to quantify how selective pressures shape the diversity of human pigmentation during different time periods. I would like to develop new models and apply genetic data to investigate how different demographic forces drive the evolution of complex traits. I also would like to explore different footprints of evolution—such as sexual selection and convergent evolution—in complex traits.
-				</li>
-                <li><strong><i>The development of tools for large-scale datasets</i></strong><br>
-                    As the amount of genomic data has increased dramatically, research community requires more efficient tools for analyzing massive genomic datasets. I have implemented such a tool called <a href="https://github.com/xin-huang/SeleDiff">SeleDiff</a>, which is fast and scalable for estimating and testing selection differences between populations. I would like to continue developing tools that would accelerate the discovery of potential causal variants in evolution. 
-                </li>
-			</ul>
-	</p>
+<div class="row">
+    <div class="column">
+    </div>
+    <div class="double-column" id="about">
+        <large style="font-size: 18px">My research interests:</large>
+        <ul>
+            <li><strong><i>The evolution of complex traits</i></strong><br>
+                A complex trait—such as the color of human skin, hair, and eye—is a trait that is affected by many genes. How complex traits evolve is a fundamental problem in biology. I have proposed <a href="https://doi.org/10.1101/253963">a new approach</a> to quantify how selective pressures shape the diversity of human pigmentation during different time periods. I would like to develop new models and apply genetic data to investigate how different demographic forces drive the evolution of complex traits. I also would like to explore different footprints of evolution—such as sexual selection and convergent evolution—in complex traits.
+            </li>
+            <li><strong><i>The development of tools for large-scale datasets</i></strong><br>
+                As the amount of genomic data has increased dramatically, research community requires more efficient tools for analyzing massive genomic datasets. I have implemented such a tool called <a href="https://github.com/xin-huang/SeleDiff">SeleDiff</a>, which is fast and scalable for estimating and testing selection differences between populations. I would like to continue developing tools that would accelerate the discovery of potential causal variants in evolution. 
+            </li>
+        </ul>
+    </div>
 </div><!-- /.blurb -->

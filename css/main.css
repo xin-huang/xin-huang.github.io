@@ -1,8 +1,9 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 nav ul, footer ul {
+    margin-left: 32.5px;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -26,7 +27,7 @@ h1 {
 }
 p {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif', 'MingLiu';
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
@@ -70,13 +71,13 @@ div ul li, ol li {
     text-align: center;
 }
 
-.self 
+#about
 {
     font-size: 14px;
 }
 
 /* ------ cover ------ */
-.cover-image
+div#cover-image
 {
     text-align: center;
 }
@@ -94,7 +95,58 @@ div ul li, ol li {
     width: 100%;
 }
 
+circle {
+    opacity: 0.8;
+}
+    
+#world-map path {
+    stroke: none;
+    stroke-width: 0px;
+    fill: lightgreen;
+    opacity: 0.8;
+}
+    
+.line {
+    fill: none;
+    stroke-width: 10px;
+}
 
+/* ------ migration color gradient ------ */
+#eaf2saf {
+    stroke: url(#line_gradient_eaf2saf);
+}
+    
+#eaf2waf {
+    stroke: url(#line_gradient_eaf2waf);
+}
+    
+#ooa {
+    stroke: url(#line_gradient_ooa);
+}
+    
+#me2aus {
+    stroke: url(#line_gradient_me2aus);
+}
+    
+#sas2eur {
+    stroke: url(#line_gradient_sas2eur);
+}
+    
+#sas2eas1 {
+    stroke: url(#line_gradient_sas2eas1);
+}
+    
+#sas2eas2 {
+    stroke: url(#line_gradient_sas2eas2);
+}
+    
+#eas2nas {
+    stroke: url(#line_gradient_eas2nas);
+}
+    
+#nas2amr {
+    stroke: url(#line_gradient_nas2amr);
+}
 
 /* ------- pagination -------- */
 
@@ -124,9 +176,29 @@ div ul li, ol li {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-
 iframe
 {
     margin: 0 auto;
     display: block;
+}
+
+.row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+}
+
+.column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+}
+
+.double-column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 4;
 }
