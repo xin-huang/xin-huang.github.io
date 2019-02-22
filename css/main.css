@@ -203,7 +203,7 @@ iframe
       /* --- flex: 4; --- */
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1600px) {
   .column {
     flex: 1;
   }
