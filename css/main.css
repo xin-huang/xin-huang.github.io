@@ -193,12 +193,22 @@ iframe
       display: flex;
       flex-direction: column;
       flex-basis: 100%;
-      flex: 1;
+      /* --- flex: 1; --- */
 }
 
 .double-column {
       display: flex;
       flex-direction: column;
       flex-basis: 100%;
-      flex: 4;
+      /* --- flex: 4; --- */
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+
+  .double-column {
+    flex: 4;
+  }
 }
