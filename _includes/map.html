@@ -17,7 +17,7 @@
                     "padding-bottom: " + Math.ceil(height * 100 / width) + "%"
                 )
             .append("svg")
-                .attr("viewBox", "0 50 " + width + " " + height)
+                .attr("viewBox", "0 70 " + width + " " + height)
                 //.style("display", "block")
                 //.style("margin", "auto");
         
@@ -74,41 +74,6 @@
                 .attr("d", path)
     });
         
-    // load the cities
-    d3.csv("/data/cities.csv", function(error, data) {
-        g.selectAll("circle")
-            .data(data)
-            .enter()
-            .append("circle")
-                  .attr("cx", function(d) { return projection([d.lon, d.lat])[0]; })
-                  .attr("cy", function(d) { return projection([d.lon, d.lat])[1]; })
-                  .attr("r", 5)
-                  .attr("fill", "tomato")
-            .on("mouseover", handleMouseOver)
-            .on("mouseout", handleMouseOut);
-            
-        function handleMouseOver(d, i) {
-            d3.select(this)
-                .attr("fill", "gold");
-            d3.select("#about").html(
-                "<div class=\"row\">" +
-                    "<div class=\"column\">" +
-                        "<img alt=\"Loading\" style=\"object-fit: contain; max-height: 200px\" src=" + d.img + ">" +
-                    "</div>" +
-                    "<div class=\"double-column\">" +
-                        "<p style=\"font-size: 1.2em\">" + d.description + "</p>" +
-                    "</div>" +
-                "</div>"
-            )
-        };
-            
-        function handleMouseOut(d, i) {
-            d3.select(this)
-                .attr("fill", "tomato");
-        };
-            
-    });
-            
     // Animation for human migration and human skin pigmentation
     // human migration reference:
     // skin color reference:
@@ -123,14 +88,14 @@
         {id: "me2aus", points: [{lon: 52.52, lat: 29.19}, 
                {lon: 72.84, lat: 21.18}, 
                {lon: 76.26, lat: 5.94}, 
-               {lon: 90.40, lat: 30.76},
+               {lon: 90.40, lat: 27.76},
                {lon: 104.03, lat: -1.09}, 
                {lon: 145.77, lat: -16.92}], cs: color_gradient[3].start, ce: color_gradient[3].end, drt: 3000, dlt: 13000},
         // to Europe
-        {id: "sas2eur", points: [{lon: 75.12, lat: 23.64}, {lon: -0.13, lat: 51.51}], cs: color_gradient[4].end, ce: color_gradient[4].start, drt: 2000, dlt: 13500},
+        {id: "sas2eur", points: [{lon: 76.12, lat: 23.64}, {lon: -0.13, lat: 51.51}], cs: color_gradient[4].end, ce: color_gradient[4].start, drt: 2000, dlt: 13500},
         // to East Asia
         {id: "sas2eas1", points: [{lon: 75.12, lat: 23.64}, {lon: 90.40, lat: 25.76}], cs: color_gradient[5].start, ce: color_gradient[5].end, drt: 2000, dlt: 13500},
-        {id: "sas2eas2", points: [{lon: 93.40, lat: 25.76}, {lon: 100.80, lat: 22.00}, {lon: 113.66, lat: 30.76}], cs: color_gradient[6].end, ce: color_gradient[6].start, drt: 1500, dlt: 15500},
+        {id: "sas2eas2", points: [{lon: 93.40, lat: 23.76}, {lon: 100.80, lat: 22.00}, {lon: 113.66, lat: 30.76}], cs: color_gradient[6].end, ce: color_gradient[6].start, drt: 1500, dlt: 15500},
         // to North Asia
         {id: "eas2nas", points: [{lon: 90.40, lat: 27.76}, 
                {lon: 116.92, lat: 57.92}, 
@@ -199,4 +164,40 @@
      for (i = 0; i < mdata.length; i++) {
          migration(mdata[i].id, mdata[i].points, mdata[i].cs, mdata[i].ce, mdata[i].drt, mdata[i].dlt);
      }
+    
+    // load the cities
+    d3.csv("/data/cities.csv", function(error, data) {
+        var circles = svg.append("g").selectAll("circle")
+            .data(data)
+            .enter()
+            .append("circle")
+                  .attr("cx", function(d) { return projection([d.lon, d.lat])[0]; })
+                  .attr("cy", function(d) { return projection([d.lon, d.lat])[1]; })
+                  .attr("r", 5)
+                  .attr("fill", "tomato")
+                  .attr("opacity", 0)
+            .on("mouseover", handleMouseOver)
+            .on("mouseout", handleMouseOut);
+            
+        function handleMouseOver(d, i) {
+            d3.select(this)
+                .attr("fill", "gold");
+            d3.select("#about").html(
+                "<div class=\"row\">" +
+                    "<div class=\"column\">" +
+                        "<img alt=\"Loading\" style=\"object-fit: contain; max-height: 200px\" src=" + d.img + ">" +
+                    "</div>" +
+                    "<div class=\"double-column\">" +
+                        "<p style=\"font-size: 1.2em\">" + d.description + "</p>" +
+                    "</div>" +
+                "</div>"
+            )
+        };
+            
+        function handleMouseOut(d, i) {
+            d3.select(this)
+                .attr("fill", "tomato");
+        };
+            
+    });
 </script>
