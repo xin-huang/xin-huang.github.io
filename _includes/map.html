@@ -178,6 +178,11 @@
                   .attr("opacity", 0)
             .on("mouseover", handleMouseOver)
             .on("mouseout", handleMouseOut);
+        
+        circles.transition()
+            .duration(2000)
+            .delay(20000)
+            .attrTween("opacity", function() { return d3.scale.linear().range([0, 0.8]); })
             
         function handleMouseOver(d, i) {
             d3.select(this)
