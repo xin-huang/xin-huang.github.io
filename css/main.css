@@ -228,9 +228,9 @@ iframe
 
 @media screen and (max-width: 1600px) {
     #tooltip-img {
-        margin-left: -30px;
+        margin-left: -35px;
     }
     #tooltip-text {
-        margin-left: -25px;
+        margin-left: -30px;
     }
 }
