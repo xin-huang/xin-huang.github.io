@@ -4,18 +4,22 @@
 <script language="javascript">
     "use strict"
     var width = 960,
-        height = 520;
+        height = 420;
         
     var projection = d3.geo.mercator()
             .center([-10, 30])
             .scale(150)
             .rotate([200, 0]);
         
-    var svg = d3.select("#cover-image").append("svg")
-            .attr("width", width)
-            .attr("height", height)
-            .style("display", "block")
-            .style("margin", "auto");
+    var svg = d3.select("#cover-image")
+                .attr(
+                    "style",
+                    "padding-bottom: " + Math.ceil(height * 100 / width) + "%"
+                )
+            .append("svg")
+                .attr("viewBox", "0 50 " + width + " " + height)
+                //.style("display", "block")
+                //.style("margin", "auto");
         
     var path = d3.geo.path()
             .projection(projection);
@@ -89,7 +93,7 @@
             d3.select("#about").html(
                 "<div class=\"row\">" +
                     "<div class=\"column\">" +
-                        "<img alt=\"Cannot load the picture? Umm, where are you from?\" style=\"object-fit: contain; max-height: 200px\" src=" + d.img + ">" +
+                        "<img alt=\"Now loading ...\" style=\"object-fit: contain; max-height: 200px\" src=" + d.img + ">" +
                     "</div>" +
                     "<div class=\"double-column\">" +
                         "<p style=\"font-size: 1.2em\">" + d.description + "</p>" +

@@ -80,6 +80,20 @@ div ul li, ol li {
 div#cover-image
 {
     text-align: center;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    /* padding-bottom will be overwritten by JavaScript later */
+    padding-bottom: 100%;
+}
+
+div#cover-image svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 .cover-image span
