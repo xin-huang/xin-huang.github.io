@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>{{ page.title }}</title>
+    <!-- meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -9,9 +15,6 @@
     <link rel="stylesheet" href="/css/font-awesome-colors.css">
     <link rel="stylesheet" href="/css/academic-icons-colors.css">
     <link rel="stylesheet" href="/css/tags.css">
-    <meta charset="utf-8">
-    <meta http-equiv="Cache-control" content="public">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">-->
     <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
     {% if page.use_math %}
         {% include mathjax_support.html %}
@@ -30,28 +33,6 @@
         {{ content }}
 			
     </div><!-- /.container -->
-
-    <!--<footer>
-        <ul  style="text-align: center">
-            {% if site.github_username %}
-	           <li><a href="https://github.com/{{ site.github_username }}">
-                   <i class="fa fa-color fa-github fa-2x" aria-hidden=true></i></a></li>
-            {% endif %}
-            {% if site.researchgate_username %}
-				<li><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
-				    <i class="ai ai-color ai-researchgate ai-2x" aria-hidden=true></i></a></li>
-            {% endif %}
-            {% if site.orcid %}
-				<li><a href="http://orcid.org/{{ site.orcid }}">
-                    <i class="ai ai-color ai-orcid ai-2x" aria-hidden=true></i></a></li>
-            {% endif %}
-            {% if site.linkedin_username %}
-                <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-                    <i class="fa fa-color fa-linkedin fa-2x" aria-hidden=true></i></a></li>
-            {% endif %}
-            <p class="poem">殘聲憑燭撚韶光，半掩孤幃懸錦囊。<br>滿樹凋零無寄處，獨吟蕭索倦癡狂。</p>
-        </ul>
-    </footer>-->
     {% include analytics.html %}
 </body>
 </html>
