@@ -221,11 +221,20 @@ iframe
 }
 
 @media screen and (min-width: 1600px) {
-  .column {
-    flex: 1;
-  }
+    .column {
+        flex: 1;
+     }
 
-  .double-column {
-    flex: 4;
-  }
+    .double-column {
+        flex: 4;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #tooltip-img {
+        margin-left: -22px;
+    }
+    #tooltip-text {
+        margin-left: -21px;
+    }
 }

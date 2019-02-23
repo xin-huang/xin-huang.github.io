@@ -185,10 +185,10 @@
             d3.select("#about").html(
                 "<div class=\"row\">" +
                     "<div class=\"column\" style=\"width: 100%\">" +
-                        "<img alt=\"Loading\" style=\"object-fit: contain; max-height: 200px; margin-left: -21px\" src=" + d.img + ">" +
+                        "<img id=\"tooltip-img\" alt=\"Loading\" style=\"object-fit: contain; max-height: 200px\" src=" + d.img + ">" +
                     "</div>" +
                     "<div class=\"double-column\" style=\"width: 100%\">" +
-                        "<p style=\"font-size: 1.2em; margin-left: -21px\">" + d.description + "</p>" +
+                        "<p id=\"tooltip-text\" style=\"font-size: 1.2em\">" + d.description + "</p>" +
                     "</div>" +
                 "</div>"
             )
