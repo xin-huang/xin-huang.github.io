@@ -79,33 +79,33 @@
     // skin color reference:
     var mdata = [
         // East Africa to South Africa
-        {id: "eaf2saf", points: [{lon: 36.18, lat: 3.53}, {lon: 28.04, lat: -26.20}], cs: color_gradient[0].start, ce: color_gradient[0].end, drt: 5000, dlt: 0}, 
+        {id: "eaf2saf", points: [{lon: 36.18, lat: 3.53}, {lon: 28.04, lat: -26.20}], cs: color_gradient[0].start, ce: color_gradient[0].end, drt: 5000, dlt: 1000}, 
         // East Africa to West Africa
-        {id: "eaf2waf", points: [{lon: 36.18, lat: 3.53}, {lon: 7.46, lat: 9.06}], cs: color_gradient[1].start, ce: color_gradient[1].end, drt: 7000, dlt: 0},
+        {id: "eaf2waf", points: [{lon: 36.18, lat: 3.53}, {lon: 7.46, lat: 9.06}], cs: color_gradient[1].start, ce: color_gradient[1].end, drt: 7000, dlt: 1000},
         // Out of Africa
-        {id: "ooa", points: [{lon: 36.18, lat: 3.53}, {lon: 51.52, lat: 25.29}], cs: color_gradient[2].end, ce: color_gradient[2].start, drt: 13000, dlt: 0},
+        {id: "ooa", points: [{lon: 36.18, lat: 3.53}, {lon: 51.52, lat: 25.29}], cs: color_gradient[2].end, ce: color_gradient[2].start, drt: 13000, dlt: 1000},
         // South route to Australia
         {id: "me2aus", points: [{lon: 52.52, lat: 29.19}, 
                {lon: 72.84, lat: 21.18}, 
                {lon: 76.26, lat: 5.94}, 
                {lon: 90.40, lat: 27.76},
                {lon: 104.03, lat: -1.09}, 
-               {lon: 145.77, lat: -16.92}], cs: color_gradient[3].start, ce: color_gradient[3].end, drt: 3000, dlt: 13000},
+               {lon: 145.77, lat: -16.92}], cs: color_gradient[3].start, ce: color_gradient[3].end, drt: 3000, dlt: 14000},
         // to Europe
-        {id: "sas2eur", points: [{lon: 76.12, lat: 23.64}, {lon: -0.13, lat: 51.51}], cs: color_gradient[4].end, ce: color_gradient[4].start, drt: 2000, dlt: 13500},
+        {id: "sas2eur", points: [{lon: 76.12, lat: 23.64}, {lon: -0.13, lat: 51.51}], cs: color_gradient[4].end, ce: color_gradient[4].start, drt: 2000, dlt: 14500},
         // to East Asia
-        {id: "sas2eas1", points: [{lon: 75.12, lat: 23.64}, {lon: 90.40, lat: 25.26}], cs: color_gradient[5].start, ce: color_gradient[5].end, drt: 2000, dlt: 13500},
-        {id: "sas2eas2", points: [{lon: 93.40, lat: 23.76}, {lon: 100.80, lat: 22.00}, {lon: 113.66, lat: 30.76}], cs: color_gradient[6].end, ce: color_gradient[6].start, drt: 1500, dlt: 15500},
+        {id: "sas2eas1", points: [{lon: 75.12, lat: 23.64}, {lon: 90.40, lat: 25.26}], cs: color_gradient[5].start, ce: color_gradient[5].end, drt: 2000, dlt: 14500},
+        {id: "sas2eas2", points: [{lon: 93.40, lat: 23.76}, {lon: 100.80, lat: 22.00}, {lon: 113.66, lat: 30.76}], cs: color_gradient[6].end, ce: color_gradient[6].start, drt: 1500, dlt: 16500},
         // to North Asia
         {id: "eas2nas", points: [{lon: 90.40, lat: 27.76}, 
                {lon: 116.92, lat: 57.92}, 
-               {lon: -169.75, lat: 66.01}], cs: color_gradient[7].end, ce: color_gradient[7].start, drt: 2500, dlt: 15500},
+               {lon: -169.75, lat: 66.01}], cs: color_gradient[7].end, ce: color_gradient[7].start, drt: 2500, dlt: 16500},
         // to America
         {id: "nas2amr", points: [{lon: -166.07, lat: 66.26}, 
                {lon: -130.11, lat: 59.26},
                {lon: -84.28, lat: 30.44},
                {lon: -68.13, lat: -16.50}, 
-               {lon: -72.07, lat: -45.57}], cs: color_gradient[8].start, ce: color_gradient[8].end, drt: 1000, dlt: 18000},
+               {lon: -72.07, lat: -45.57}], cs: color_gradient[8].start, ce: color_gradient[8].end, drt: 1000, dlt: 19000},
     ]
         
      var migration = function(id, points, cs, ce, drt, dlt) {
