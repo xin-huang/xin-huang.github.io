@@ -57,6 +57,10 @@ div ul li, ol li {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
 }
 
+footer ul li span a {
+    text-decoration: none;
+}
+
 .center-image
 {
     margin: 0 auto;
