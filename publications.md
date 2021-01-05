@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Xin Huang
+layout: page
+title: Publications
 ---
 
 abc
