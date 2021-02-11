@@ -36,25 +36,26 @@
     </div><!-- /.container -->
      <footer>
         <ul  style="text-align: center">
-            {% if site.github_username %}
-	           <li><a href="https://github.com/{{ site.github_username }}">
-                   <i class="fa fa-color fa-github fa-2x" aria-hidden=true></i></a></li>
-            {% endif %}
+            
             {% if site.googlescholar_username %}
             <li><a href="https://scholar.google.com/{{ site.googlescholar_username }}">
                 <i class="ai ai-color ai-google-scholar-square ai-2x" aria-hidden=true></i></a></li>
-            {% endif %}
-            {% if site.researchgate_username %}
-				<li><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
-				    <i class="ai ai-color ai-researchgate ai-2x" aria-hidden=true></i></a></li>
             {% endif %}
             {% if site.orcid %}
 				<li><a href="http://orcid.org/{{ site.orcid }}">
                     <i class="ai ai-color ai-orcid ai-2x" aria-hidden=true></i></a></li>
             {% endif %}
-                <li><a href="https://publons.com/researcher/3817310/xin-huang/">
+            <li><a href="https://publons.com/researcher/3817310/xin-huang/">
                     <img id="badgeIconbadgeCont178" src="https://publons.com/static/images/badge/rid_badge_small.png"></a>
                 </li>
+            {% if site.researchgate_username %}
+				<li><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
+				    <i class="ai ai-color ai-researchgate ai-2x" aria-hidden=true></i></a></li>
+            {% endif %}
+            {% if site.github_username %}
+	           <li><a href="https://github.com/{{ site.github_username }}">
+                   <i class="fa fa-color fa-github fa-2x" aria-hidden=true></i></a></li>
+            {% endif %}
             <!-- {% if site.linkedin_username %}
                 <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
                     <i class="fa fa-color fa-linkedin fa-2x" aria-hidden=true></i></a></li>
