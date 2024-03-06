@@ -1,0 +1,238 @@
+body {
+    margin: 60px auto;
+    width: 80%;
+}
+nav ul, footer ul {
+    margin-left: 32.5px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #009999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
+}
+p {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif', 'MingLiu';
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.3em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+div {
+    margin: 10px;
+}
+
+div ul li, ol li {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #333;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif', '微软雅黑';
+}
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+}
+
+.poem
+{
+    /* writing-mode: vertical-rl; */
+    font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', 'Apple LiSung Light';
+    font-size: 16px;
+    text-align: center;
+    /* text-orientation: mixed; */
+}
+
+#about
+{
+    font-size: 14px;
+}
+
+/* ------ cover ------ */
+div#cover-image
+{
+    text-align: center;
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    /* padding-bottom will be overwritten by JavaScript later */
+    padding-bottom: 100%;
+}
+
+div#cover-image svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.cover-image span
+{
+    margin: auto;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+.cover 
+{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+    
+#world-map path {
+    stroke: none;
+    stroke-width: 0px;
+    fill: lightgreen;
+    opacity: 0.8;
+}
+    
+.line {
+    fill: none;
+    stroke-width: 10px;
+}
+
+/* ------ migration color gradient ------ */
+#eaf2saf {
+    stroke: url(#line_gradient_eaf2saf);
+}
+    
+#eaf2waf {
+    stroke: url(#line_gradient_eaf2waf);
+}
+    
+#ooa {
+    stroke: url(#line_gradient_ooa);
+}
+    
+#me2aus {
+    stroke: url(#line_gradient_me2aus);
+}
+    
+#sas2eur {
+    stroke: url(#line_gradient_sas2eur);
+}
+    
+#sas2eas1 {
+    stroke: url(#line_gradient_sas2eas1);
+}
+    
+#sas2eas2 {
+    stroke: url(#line_gradient_sas2eas2);
+}
+    
+#eas2nas {
+    stroke: url(#line_gradient_eas2nas);
+}
+    
+#nas2amr {
+    stroke: url(#line_gradient_nas2amr);
+}
+
+/* ------- pagination -------- */
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    margin: auto;
+    color: #009999;
+}
+
+.pagination-item:hover {
+    color: #a6ce39;
+    transition: color .25s;
+}
+
+.pagination-item:hover a {
+    color: #a6ce39;
+}
+
+.pagination span {
+    margin: auto;
+}
+
+.pagination-number {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+iframe
+{
+    margin: 0 auto;
+    display: block;
+}
+
+/* --- responsive --- */
+.row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      /* align-items: center;
+      justify-content: center; */
+}
+
+.column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      /* --- flex: 1; --- */
+}
+
+.double-column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      /* --- flex: 4; --- */
+}
+
+@media screen and (min-width: 1600px) {
+    .column {
+        flex: 1;
+     }
+
+    .double-column {
+        flex: 4;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #tooltip-img {
+        margin-left: -30px;
+    }
+    #tooltip-text {
+        margin-left: -21px;
+    }
+}

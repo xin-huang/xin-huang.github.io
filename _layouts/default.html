@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ page.title }}</title>
+    <!-- meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/academicons-1.7.0/css/academicons.css"/>
+    <link rel="stylesheet" href="/css/font-awesome-colors.css">
+    <link rel="stylesheet" href="/css/academic-icons-colors.css">
+    <link rel="stylesheet" href="/css/tags.css">
+    <link rel="shortcut icon" href="#">
+    <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+    {% if page.use_math %}
+        {% include mathjax_support.html %}
+    {% endif %}
+</head>
+<body>
+    <nav>
+	   <ul>
+	       <li><a href="/">About</a></li>
+           <li><a href="/cv/Xin_Huang_CV.pdf">CV</a></li>
+           <!--<li><a href="/publications/">Publications</a></li>-->
+           <!--<li><a href="/notes/">Notes</a></li>-->
+	   </ul>
+    </nav>
+
+    <div class="row">
+			
+        {{ content }}
+			
+    </div><!-- /.container -->
+     <footer>
+        <ul  style="text-align: center">
+            
+            {% if site.googlescholar_username %}
+            <li><a href="https://scholar.google.com/{{ site.googlescholar_username }}">
+                <i class="ai ai-color ai-google-scholar-square ai-2x" aria-hidden=true></i></a></li>
+            {% endif %}
+            {% if site.orcid %}
+				<li><a href="http://orcid.org/{{ site.orcid }}">
+                    <i class="ai ai-color ai-orcid ai-2x" aria-hidden=true></i></a></li>
+            {% endif %}
+            <!-- <li><a href="https://publons.com/researcher/3817310/xin-huang/">
+                    <img id="badgeIconbadgeCont178" src="https://publons.com/static/images/badge/rid_badge_small.png"></a>
+                </li> -->
+            {% if site.researchgate_username %}
+				<li><a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
+				    <i class="ai ai-color ai-researchgate ai-2x" aria-hidden=true></i></a></li>
+            {% endif %}
+            {% if site.github_username %}
+	           <li><a href="https://github.com/{{ site.github_username }}">
+                   <i class="fa fa-color fa-github fa-2x" aria-hidden=true></i></a></li>
+            {% endif %}
+            {% if site.linkedin_username %}
+                <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                    <i class="fa fa-color fa-linkedin fa-2x" aria-hidden=true></i></a></li>
+            {% endif %}
+            <!-- <p class="poem">殘聲憑燭捻韶光，半掩孤幃懸錦囊。<br>滿樹凋零無寄處，獨吟蕭索倦癡狂。</p> -->
+            <!-- <p class="poem">談風月，評聖愚，撫劍笑公輸。<br>巧奪班門明夜火，鋒海照寒軀。</p> -->
+            <!-- <p class="poem">鏽劍何在？盛名何來？ <br>全作腐骨鑄屍骸，千年難成盡無奈。<br>寧拋冠，望興嘆，百感傷懷，廢字成哀。</p> -->
+            <!-- <p class="poem">家富人寧，終有個，家亡人散各奔騰。<br>枉費了意懸懸半世心，好一似盪悠悠三更夢。<br>忽喇喇似大廈傾，昏慘慘似燈將盡。<br>呀！一場歡喜忽悲辛。嘆人世，終難定！</p> -->
+            <!-- <p class="poem" style="text-align: center">廿載攀峰孰知峰頂塔塌空餘敗燈老鴰<br>一川闖海何懼海中濤滔盡笑狂浪顛風</p> -->
+            <!-- <p class="poem" style="text-align: center">爾今死去儂收葬，未卜儂身何日喪？<br>儂今葬花人笑癡，他年葬儂知是誰？<br>試看春殘花漸落，便是紅顏老死時。<br>一朝春盡紅顏老，花落人亡兩不知！</p> -->
+            <!-- <p class="poem" style="text-align: center">狂風驟雨催紙傘，遊人浪跡步不休。<br>天地滂沱如何渡，蓑衣褪盡任濁流。</p> -->
+            <!-- <p class="poem" style="text-align: center">人笑良圖若華胥，吾志凌雲意堅行。<br>不與浮榮競朝夕，無憾黃沙染身時。</p> -->
+            <!-- <p class="poem" style="text-align: center">會稽愚婦輕買臣，余亦辭家西入秦。<br>仰天大笑出門去，我輩豈是蓬蒿人。</p> -->
+            <!-- <p class="poem" style="text-align: center">莊生曉夢迷蝴蝶，望帝春心託杜鵑。<br>滄海月明珠有淚，藍田日暖玉生煙。</p> -->
+            <!-- <p class="poem" style="text-align: center">一年三百六十日，風刀霜劍嚴相逼。<br>明媚鮮妍能幾時，一朝飄泊難尋覔。<br>花開易見落難尋，階前愁殺葬花人。<br>獨倚花鋤淚暗灑，灑上空枝見血痕。<br>願奴脇下生雙翼，隨花飛到天盡頭。<br>天盡頭，何處有香坵？</p> -->
+            <!-- <p class="poem" style="text-align: center">浮生着甚苦奔忙，盛席華筵終散場。<br>悲喜千般同幻渺，古今一夢盡荒唐。<br>謾言紅袖啼痕重，更有情痴抱恨長。<br>字字看來皆是血，十年辛苦不尋常。</p>-->
+            <!-- <p class="poem" style="text-align: center">天上碧桃和露種，日邊紅杏倚雲栽。<br>芙蓉生在秋江上，不向東風怨未開。</p> -->
+	    <!-- <p class="poem" style="text-align: center">南人不相宋家傳，自詡津橋驚杜鵑。<br>辛苦李虞文陸輩，追隨寒日到虞淵。</p> -->
+	    <!-- <p class="poem" style="text-align: center">天涯逆子乞行踪，笑諷王孫畏吉凶。<br>遠浦三更彈寶劍，平沙一夕悅虯龍。</p> -->
+	    <!-- <p class="poem" style="text-align: center">城池俱壞，英雄安在？雲龍幾度相交代！<br>想興衰，苦爲懷。唐家才起隋家敗。<br>世態有如雲變改。<br>疾，也是天地差；遲，也是天地差！</p> -->
+	    <!-- <p class="poem" style="text-align: center">萬山不許一溪奔，攔得溪聲日夜喧。<br>到得前頭山腳盡，堂堂溪水出前村。</p> -->
+	    <!-- <p class="poem" style="text-align: center">別圃移來貴比金，一叢淺淡一叢深。<br>蕭疏籬畔科頭坐，清冷香中抱膝吟。<br>數去更無君傲世，看來惟有我知音！<br>秋光荏苒休辜負，相對原宜惜寸陰。</p> -->
+	    <!-- <p class="poem" style="text-align: center">桂靄桐陰坐舉觴，長安涎口盼重陽。<br>眼前道路無經緯，皮裡春秋空黑黃。<br>酒未敵腥還用菊，性防積冷定需姜。<br>於今落釜成何益？月浦空餘禾黍香。</p> -->
+	    <!-- <p class="poem" style="text-align: center">王楊盧駱當時體，輕薄為文哂未休。<br>爾曹身與名俱滅，不廢江河萬古流。</p> -->
+	    <!-- <p class="poem" style="text-align: center">堪破三春景不長，緇衣頓改昔年粧。<br>可憐綉戶侯門女，獨卧青燈古佛傍。</p> -->
+	    <!-- <p class="poem" style="text-align: center">長揖雄談態自殊，美人巨眼識窮途。<br>屍居餘氣楊公幕，豈得羈縻女丈夫？</p> -->
+	    <!-- <p class="poem" style="text-align: center">才自精明志自高，生於末世運偏消。<br>清明涕送江邊望，千里東風一夢遙。</p> -->
+            <!-- <p class="poem" style="text-align: center">火龍蟄起燕門秋，原璧應難趙氏收。<br>一院梨花春有主，連宵風雨不須愁。</p> -->
+	    <!-- <p class="poem" style="text-align: center">古鏡昏暗好幾年，一朝磨明似月圓。<br>君子謀事逢此卦，時來運轉喜自然。</p> -->
+            <!-- <p class="poem" style="text-align: center">夢鎖瓊樓枕無憂，千古流芳別寒秋。<br>夕照雲舟恨歸晚，幾度爭鋒幾度休。</p> -->
+		 <p class="poem" style="text-align: center">白日依山盡，黃河入海流。<br>欲窮千里目，更上一層樓。</p>
+        </ul>
+    </footer>
+    {% include analytics.html %}
+</body>
+</html>

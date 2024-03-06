@@ -1,0 +1,57 @@
+---
+layout: default
+notes: active
+---
+<div class="notes">
+	<div class="note single">
+		<h2 class="title">
+			{{ page.title }}
+		</h2>
+			
+		<h3 class="date">
+			<info datetime="{{ page.date }}">
+	    			{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
+			</info>
+		</h3>
+            
+            <!--<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                <a class="a2a_button_facebook"></a>
+                <a class="a2a_button_google_plus"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_sina_weibo"></a>
+                <a class="a2a_button_wechat"></a>
+                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+	    </div>-->
+            
+		<!-- Post content -->
+		<div class="notebody">
+			{{ content }}
+		</div>
+		<!-- Post info -->
+		<div class="noteinfo">
+			<!-- include some categories and tags maybe? -->
+		</div>
+
+			
+		<div class="related">
+  			<h3>Related Posts</h3>
+  			<ul class="related-posts">
+    				{% for post in site.related_posts limit:3 %}
+      					<li>
+          					<a href="{{ site.baseurl }}{{ post.url }}">
+           						 {{ post.title }}
+            						<small>{{ post.date | date_to_string }}</small>
+          					</a>
+      					</li>
+    				{% endfor %}
+  			</ul>
+		</div>
+
+		<!--<hr>-->
+
+		<!-- Post comments -->
+		<!--<div class="notecomments">
+			{% include disqus.html %}	 
+		</div>-->
+	</div><!-- / .note .single -->
+</div><!-- /.notes -->

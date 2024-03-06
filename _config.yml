@@ -1,0 +1,27 @@
+name: Xin Huang
+
+# accounts
+github_username: xin-huang
+googlescholar_username: citations?hl=en&user=U_jbftIAAAAJ&view_op=list_works&sortby=pubdate
+orcid: 0000-0002-9918-9602
+researchgate_username: Xin_Huang39
+linkedin_username: xin-huang-96897885
+
+# Site configurations
+plugins: [jekyll-paginate]
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+paginate: 3
+paginate_path: '/notes/page:num'
+permalink: pretty
+
+# Where are tags and categories displayed
+tag_page: '/notes/tags/'
+category_page: '/notes/categories/'
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: UA-97983085-1 # leave blank if you don't want google analytics
+disqus_short_name: 'xin-huang' # leave blank if you don't want disqus
