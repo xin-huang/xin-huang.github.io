@@ -8,7 +8,10 @@ researchgate_username: Xin_Huang39
 linkedin_username: xin-huang-96897885
 
 # Site configurations
-plugins: [jekyll-paginate]
+remote_theme: pages-themes/hacker@v0.2.0
+plugins: 
+    - jekyll-paginate
+    - jekyll-remote-theme
 markdown: kramdown
 kramdown:
   input: GFM
@@ -25,3 +28,8 @@ category_page: '/notes/categories/'
 mathjax: true # whether support mathjax
 google_analytics_token: UA-97983085-1 # leave blank if you don't want google analytics
 disqus_short_name: 'xin-huang' # leave blank if you don't want disqus
+
+# theme
+title: Xin Huang
+description: Personal Website for Xin Huang
+show_downloads: false
