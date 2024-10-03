@@ -14,6 +14,9 @@ theme:
         logo: simple/xing
         repo: material/file-document-outline
 extra:
+    analytics:
+        provider: google
+        property: G-LKTXJ0SE20
     social:
         - icon: simple/orcid
           link: https://orcid.org/0000-0002-9918-9602
