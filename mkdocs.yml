@@ -1,0 +1,30 @@
+site_name: Xin Huang, PhD
+site_url: https://xin-huang.github.io/
+repo_url: https://xin-huang.github.io/cv/Xin_Huang_CV.pdf
+repo_name: CV
+theme:
+    name: material
+    custom_dir: overrides
+    features:
+        - announce.dismiss
+    palette:
+        primary: lime
+    icon:
+        logo: simple/xing
+        repo: material/file-document-outline
+extra:
+    social:
+        - icon: simple/orcid
+          link: https://orcid.org/0000-0002-9918-9602
+        - icon: simple/googlescholar
+          link: https://scholar.google.com/citations?hl=en&user=U_jbftIAAAAJ&view_op=list_works&sortby=pubdate
+        - icon: simple/researchgate
+          link: https://www.researchgate.net/profile/Xin-Huang-26
+        - icon: simple/github
+          link: https://github.com/xin-huang
+        - icon: simple/huggingface
+          link: https://huggingface.co/xin-huang
+nav:
+    - About: 'index.md'
+    - Selected Publications: 'publications.md'
+    - Selected Software: 'software.md'
