@@ -4,6 +4,7 @@ repo_url: https://xin-huang.github.io/cv/Xin_Huang_CV.pdf
 repo_name: CV
 theme:
     name: material
+    favicon: images/favicon.png
     custom_dir: overrides
     features:
         - announce.dismiss
