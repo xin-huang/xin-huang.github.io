@@ -11,7 +11,20 @@ theme:
     features:
         - announce.dismiss
     palette:
-        primary: lime
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          primary: lime
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to dark mode
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          primary: yellow
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to light mode
     icon:
         repo: material/file-document-outline
 extra:
