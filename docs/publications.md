@@ -17,6 +17,7 @@
   .citation-text {
     flex: 1;
     padding-left: 10px;
+    font-size: 16px;
   }
   .badge-container {
     width: 50px;
@@ -61,7 +62,7 @@
   <!-- Citation Text -->
   <div class="citation-text">
     <strong>•</strong> <strong>Huang X</strong>&ast;, Kruisz P, Kuhlwilm M&ast;. 2022. <a href="https://doi.org/10.1093/molbev/msac212" target="_blank">
-    sstar: A Python package for detecting archaic introgression from population genetic data with <i>S</i>*.</a> <i>Molecular Biology Evolution</i> <strong>39</strong>: msac212.
+    sstar: A Python package for detecting archaic introgression from population genetic data with <i>S</i>*.</a> <i>Molecular Biology and Evolution</i> <strong>39</strong>: msac212.
   </div>
   <!-- PlumX Badge -->
   <div class="badge-container">
@@ -84,7 +85,7 @@
   <!-- Citation Text -->
   <div class="citation-text">
     <strong>•</strong> <strong>Huang X</strong>, Fortier AL, Coffman AJ, Struck TJ, Irby MN, James JE, León-Burguete JE, Ragsdale AR, Gutenkunst RN&ast;. 2021. <a href="https://doi.org/10.1093/molbev/msab162" target="_blank">
-    Inferring genome-wide correlations of mutation fitness effects between populations.</a> <i>Molecular Biology Evolution</i> <strong>38</strong>: 4588–4602.
+    Inferring genome-wide correlations of mutation fitness effects between populations.</a> <i>Molecular Biology and Evolution</i> <strong>38</strong>: 4588–4602.
   </div>
   <!-- PlumX Badge -->
   <div class="badge-container">
