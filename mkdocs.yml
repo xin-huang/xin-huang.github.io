@@ -4,46 +4,48 @@ repo_url: https://xin-huang.github.io/cv/Xin_Huang_CV.pdf
 repo_name: CV
 copyright: Copyright &copy; 2017–2025 Xin Huang
 theme:
-    name: material
-    favicon: assets/favicon.png
-    logo: assets/stamp.svg
-    custom_dir: overrides
-    features:
-        - announce.dismiss
-    palette:
-        # Palette toggle for dark mode
-        - media: "(prefers-color-scheme: light)"
-          scheme: default
-          primary: lime
-          toggle:
-              icon: material/toggle-switch
-              name: Switch to dark mode
-        # Palette toggle for light mode
-        - media: "(prefers-color-scheme: dark)"
-          scheme: slate
-          primary: yellow
-          toggle:
-              icon: material/toggle-switch-off-outline
-              name: Switch to light mode
-    icon:
-        repo: material/file-document-outline
+  name: material
+  favicon: assets/favicon.png
+  logo: assets/stamp.svg
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: lime
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: yellow
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  icon:
+    repo: material/file-document-outline
 extra:
-    analytics:
-        provider: google
-        property: G-LKTXJ0SE20
-    #generator: false
-    social:
-        - icon: simple/orcid
-          link: https://orcid.org/0000-0002-9918-9602
-        - icon: simple/googlescholar
-          link: https://scholar.google.com/citations?hl=en&user=U_jbftIAAAAJ&view_op=list_works&sortby=pubdate
-        - icon: simple/researchgate
-          link: https://www.researchgate.net/profile/Xin-Huang-26
-        - icon: simple/github
-          link: https://github.com/xin-huang
-        - icon: simple/huggingface
-          link: https://huggingface.co/xin-huang
+  analytics:
+    provider: google
+    property: G-LKTXJ0SE20
+  #generator: false
+  social:
+    - icon: simple/orcid
+      link: https://orcid.org/0000-0002-9918-9602
+    - icon: simple/googlescholar
+      link: https://scholar.google.com/citations?hl=en&user=U_jbftIAAAAJ&view_op=list_works&sortby=pubdate
+    - icon: simple/researchgate
+      link: https://www.researchgate.net/profile/Xin-Huang-26
+    - icon: simple/github
+      link: https://github.com/xin-huang
+    - icon: simple/huggingface
+      link: https://huggingface.co/xin-huang
+extra_css:
+  - stylesheets/extra.css
 nav:
-    - About: 'index.md'
-    - Selected Publications: 'publications.md'
-    - Selected Software: 'software.md'
+  - About: 'index.md'
+  - Selected Publications: 'publications.md'
+  - Selected Software: 'software.md'
