@@ -1,37 +1,23 @@
 # Selected Publications
 
-<style>
-  .altmetric-embed {
-    transform: scale(0.8); /* Adjusts the size of the Altmetric badge */
-    transform-origin: top left;
-  }
-  .__dimensions_badge_embed__ {
-    transform: scale(0.43); /* Adjusts the size of the Dimensions badge */
-    transform-origin: top left;
-  }
-  .citation-row {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .citation-text {
-    flex: 1;
-    padding-left: 10px;
-    font-size: 16px;
-  }
-  .badge-container {
-    width: 50px;
-    height: 50px;
-  }
-</style>
-
 \* Corresponding author
 
 <div class="citation-row">
   <!-- Citation Text -->
   <div class="citation-text">
-    <strong>•</strong> Hackl J, <strong>Huang X</strong>&ast;. 2025. Revisiting adaptive introgression at the HLA genes in Lithuanian genomes with machine learning.
-    <i>Infection, Genetics and Evolution</i>.
+    <strong>•</strong> Hackl J, <strong>Huang X</strong>&ast;. 2025. <a href="https://doi.org/10.1016/j.meegid.2024.105708" target="_blank">Revisiting adaptive introgression at the HLA genes in Lithuanian genomes with machine learning.</a> <i>Infection, Genetics and Evolution</i>.
+  </div>
+  <!-- Badge Placeholder -->
+  <div class="badge-container">
+    <div class="badge-placeholder"></div>
+  </div>
+  <!-- Badge Placeholder -->
+  <div class="badge-container">
+    <div class="badge-placeholder"></div>
+  </div>
+  <!-- Badge Placeholder -->
+  <div class="badge-container">
+    <div class="badge-placeholder"></div>
   </div>
 </div>
 
