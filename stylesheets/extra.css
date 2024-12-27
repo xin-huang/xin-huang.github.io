@@ -1,9 +1,44 @@
 .md-typeset {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .poem {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', 'Apple LiSung Light';
+  text-align: center;
+  font-size: 14px;
+  font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', 'Apple LiSung Light';
+}
+
+.altmetric-embed {
+  transform: scale(0.8); /* Adjusts the size of the Altmetric badge */
+  transform-origin: top left;
+}
+
+.__dimensions_badge_embed__ {
+  transform: scale(0.43); /* Adjusts the size of the Dimensions badge */
+  transform-origin: top left;
+}
+
+.citation-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.citation-text {
+  flex: 1;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.badge-container {
+  width: 50px;
+  height: 50px;
+}
+
+.badge-placeholder {
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border: 1px dashed #ccc;
+  display: inline-block;
 }
