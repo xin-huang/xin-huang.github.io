@@ -1,3 +1,9 @@
 .md-typeset {
-    font-size: 16px
+    font-size: 16px;
+}
+
+.poem {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', 'Apple LiSung Light';
 }
