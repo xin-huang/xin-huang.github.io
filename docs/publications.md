@@ -5,7 +5,7 @@
 <div class="citation-row">
   <!-- Citation Text -->
   <div class="citation-text">
-    <strong>•</strong> Hackl J, <strong>Huang X</strong>&ast;. 2025. <a href="https://doi.org/10.1016/j.meegid.2024.105708" target="_blank">Revisiting adaptive introgression at the HLA genes in Lithuanian genomes with machine learning.</a> <i>Infection, Genetics and Evolution</i>.
+    <strong>•</strong> Hackl J, <strong>Huang X</strong>&ast;. 2025. <a href="https://doi.org/10.1016/j.meegid.2024.105708" target="_blank">Revisiting adaptive introgression at the HLA genes in Lithuanian genomes with machine learning.</a> <i>Infection, Genetics and Evolution</i> <strong>127</strong>: 105708.
   </div>
   <!-- Badge Placeholder -->
   <div class="badge-container">
