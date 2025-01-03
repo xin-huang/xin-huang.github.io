@@ -7,13 +7,15 @@
   <div class="citation-text">
     <strong>•</strong> Hackl J, <strong>Huang X</strong>&ast;. 2025. <a href="https://doi.org/10.1016/j.meegid.2024.105708" target="_blank">Revisiting adaptive introgression at the HLA genes in Lithuanian genomes with machine learning.</a> <i>Infection, Genetics and Evolution</i> <strong>127</strong>: 105708.
   </div>
-  <!-- Badge Placeholder -->
+  <!-- PlumX Badge -->
   <div class="badge-container">
-    <div class="badge-placeholder"></div>
+    <a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.meegid.2024.105708" data-popup="left" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true"></a>
+    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
   </div>
-  <!-- Badge Placeholder -->
+  <!-- Dimensions Badge -->
   <div class="badge-container">
-    <div class="badge-placeholder"></div>
+    <span class="__dimensions_badge_embed__" data-doi="10.1016/j.meegid.2024.105708"></span>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
   </div>
   <!-- Altmetric Badge -->
   <div class="badge-container">
