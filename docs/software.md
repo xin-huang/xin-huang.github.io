@@ -11,8 +11,7 @@
 <strong>•</strong> [sstar](https://github.com/xin-huang/sstar): Detecting Archaic Introgression from Population Genetic Data with *S**
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/xin-huang/sstar/build.yml?branch=main&style=flat-square)](https://github.com/xin-huang/sstar/actions)
-[![codecov](https://img.shields.io/codecov/c/github/xin-huang/sstar?token=71r46xjWnU&style=flat-square)](https://codecov.io/gh/xin-huang/sstar)
-[![Documentation Status](https://img.shields.io/readthedocs/sstar?style=flat-square)](https://sstar.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://img.shields.io/codecov/c/github/xin-huang/sstar?style=flat-square)](https://app.codecov.io/gh/xin-huang/sstar)
+[![Documentation Status](https://img.shields.io/github/actions/workflow/status/xin-huang/sstar/pages/pages-build-deployment?style=flat-square&label=docs)](https://xin-huang.github.io/sstar)
 [![Downloads](https://img.shields.io/pypi/dm/sstar?style=flat-square)](https://pypi.org/project/sstar/)
 [![GitHub Repo Stars](https://img.shields.io/github/stars/xin-huang/sstar)](https://github.com/xin-huang/sstar)
-
