@@ -15,3 +15,11 @@
 [![Documentation Status](https://img.shields.io/github/actions/workflow/status/xin-huang/sstar/pages/pages-build-deployment?style=flat-square&label=docs)](https://xin-huang.github.io/sstar)
 [![Downloads](https://img.shields.io/pypi/dm/sstar?style=flat-square)](https://pypi.org/project/sstar/)
 [![GitHub Repo Stars](https://img.shields.io/github/stars/xin-huang/sstar)](https://github.com/xin-huang/sstar)
+
+<strong>•</strong> [sai](https://github.com/xin-huang/sai): Statistics for Adaptive Introgression
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/xin-huang/sai/build.yaml?branch=main&style=flat-square)](https://github.com/xin-huang/sai/actions)
+[![codecov](https://img.shields.io/codecov/c/github/xin-huang/sai?style=flat-square)](https://app.codecov.io/gh/xin-huang/sai)
+[![Documentation Status](https://img.shields.io/github/actions/workflow/status/xin-huang/sai/pages/pages-build-deployment?style=flat-square&label=docs)](https://xin-huang.github.io/sai)
+[![Downloads](https://img.shields.io/pypi/dm/sai?style=flat-square)](https://pypi.org/project/sai/)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/xin-huang/sai)](https://github.com/xin-huang/sai)
