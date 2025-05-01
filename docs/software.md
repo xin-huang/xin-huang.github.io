@@ -21,5 +21,5 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/xin-huang/sai/build.yaml?branch=main&style=flat-square)](https://github.com/xin-huang/sai/actions)
 [![codecov](https://img.shields.io/codecov/c/github/xin-huang/sai?style=flat-square)](https://app.codecov.io/gh/xin-huang/sai)
 [![Documentation Status](https://img.shields.io/github/actions/workflow/status/xin-huang/sai/pages/pages-build-deployment?style=flat-square&label=docs)](https://xin-huang.github.io/sai)
-[![Downloads](https://img.shields.io/pypi/dm/sai?style=flat-square)](https://pypi.org/project/sai/)
+[![Downloads](https://img.shields.io/pypi/dm/sai-pg?style=flat-square)](https://pypi.org/project/sai-pg/)
 [![GitHub Repo Stars](https://img.shields.io/github/stars/xin-huang/sai)](https://github.com/xin-huang/sai)
