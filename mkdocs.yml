@@ -6,7 +6,7 @@ copyright: Copyright &copy; 2017–2025 Xin Huang
 theme:
   name: material
   favicon: assets/favicon.png
-  logo: assets/stamp.svg
+  logo: assets/seal.svg
   custom_dir: overrides
   features:
     - announce.dismiss
@@ -43,6 +43,8 @@ extra:
       link: https://github.com/xin-huang
     - icon: simple/huggingface
       link: https://huggingface.co/xin-huang
+    - icon: simple/python
+      link: https://pypi.org/user/xin-huang
 extra_css:
   - stylesheets/extra.css
 nav:
