@@ -2,7 +2,7 @@
 
 \* Corresponding author
 
-### Research
+## Research
 
 <div class="citation-row">
   <!-- Citation Text -->
@@ -73,7 +73,7 @@
   </div>
 </div>
 
-### Reviews
+## Reviews
 
 <div class="citation-row">
   <!-- Citation Text -->
@@ -121,7 +121,7 @@
   </div>
 </div>
 
-### Comments
+## Comments
 
 <div class="citation-row">
   <!-- Citation Text -->
