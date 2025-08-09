@@ -49,6 +49,6 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - About: 'index.md'
-  - Code Development Guideline: 'code.md'
+  - Code Development Guideline: 'development.md'
   - Selected Publications: 'publications.md'
   - Selected Software: 'software.md'
