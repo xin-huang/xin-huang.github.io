@@ -46,6 +46,7 @@
 .vertical-rl {
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-size: 28px
   font-family: "Noto Serif CJK SC", "Source Han Serif SC", serif;
   line-height: 2;
   white-space: pre-wrap;
