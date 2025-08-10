@@ -42,3 +42,11 @@
   border: 1px dashed #ccc;
   display: inline-block;
 }
+
+.vertical-rl {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', 'Apple LiSung Light';
+  line-height: 2;
+  white-space: pre-wrap;
+}
