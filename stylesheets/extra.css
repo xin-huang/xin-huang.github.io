@@ -46,7 +46,8 @@
 .vertical-rl {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-family: "Noto Serif CJK SC", "Source Han Serif SC", serif;
+  /* font-family: "Noto Serif CJK SC", "Source Han Serif SC", serif; */
+  font-family: "STFangsong", "FangSong_GB2312", "FangSong", "Apple LiSung Light";
   line-height: 2;
   white-space: pre-wrap;
   float: left;
