@@ -5,7 +5,7 @@
 .poem {
   text-align: center;
   font-size: 14px;
-  font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', 'Apple LiSung Light';
+  font-family: "STFangsong", "FangSong_GB2312", "FangSong", "Apple LiSung Light";
 }
 
 .altmetric-embed {
@@ -46,7 +46,7 @@
 .vertical-rl {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-family: 'STFangsong', 'FangSong_GB2312', 'FangSong', 'Apple LiSung Light';
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", serif;
   line-height: 2;
   white-space: pre-wrap;
 }
