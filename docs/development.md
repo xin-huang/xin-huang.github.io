@@ -1,4 +1,4 @@
-# Code Development Guideline
+# Development Guideline
 
 To maintain code quality, ensure consistency, and enable smooth collaboration across the team, it is essential to follow a standardized development workflow. This document outlines best practices for contributing to the project. By adhering to these guidelines, we can reduce bugs, improve readability, and speed up reviews and integration.
 
@@ -9,6 +9,7 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 - All development code must be submitted to the `dev` branch.
 - Do **not** push code directly to the `main` branch.
 - All new features, bug fixes, and experiments should be done in the `dev` branch or a feature branch based on `dev`.
+- Do **not** be afraid to modify code directly in the `dev` branch rather than creating duplicate code via copy-paste. If you think something should be improved, just update the existing code. Git will track all changes, and GitHub provides an easy-to-read visual comparison for reviewing edits.
 
 ---
 

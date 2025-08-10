@@ -49,6 +49,7 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - About: 'index.md'
-  - Code Development Guideline: 'development.md'
   - Selected Publications: 'publications.md'
   - Selected Software: 'software.md'
+  - Development Guideline: 'development.md'
+  - Human Learning: 'learning.md'
