@@ -44,9 +44,11 @@
 }
 
 .vertical-rl {
+  margin-right: auto;
+  margin-left: 0;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-size: 28px
+  font-size: 28px;
   font-family: "Noto Serif CJK SC", "Source Han Serif SC", serif;
   line-height: 2;
   white-space: pre-wrap;
