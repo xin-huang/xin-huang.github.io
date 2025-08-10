@@ -44,8 +44,6 @@
 }
 
 .vertical-rl {
-  margin-right: auto;
-  margin-left: 0;
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-size: 28px;
