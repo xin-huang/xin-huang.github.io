@@ -9,7 +9,7 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 - All development code must be submitted to the `dev` branch.
 - Do **not** push code directly to the `main` branch.
 - All new features, bug fixes, and experiments should be done in the `dev` branch or a feature branch based on `dev`.
-- Do **not** be afraid to modify code directly in the `dev` branch rather than creating duplicate code via copy-paste. If you think something should be improved, just update the existing code. Git will track all changes, and GitHub provides an easy-to-read visual comparison for reviewing edits.
+- Rather than creating duplicate code via copy-paste, modify the existing code directly in the `dev` branch. Do not worry about breaking things. Git will track all changes, and GitHub provides an easy-to-read visual comparison for reviewing edits.
 
 ---
 
