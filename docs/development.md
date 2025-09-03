@@ -53,3 +53,11 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 - Regularly pull the latest changes from the `dev` branch to avoid conflicts.
 - Communicate before making major changes to ensure team alignment.
 - Don’t hesitate to ask questions or reach out by opening an issue on GitHub.
+
+---
+
+## References
+
+- Wilson G, et al. (2014) [Best practices for scientific computing](https://doi.org/10.1371/journal.pbio.1001745). *PLoS Computational Biology* **12**: e1001745.
+- Browning B. (2016) [An introduction to genotype imputation](https://www.youtube.com/watch?v=-oUvXXg6tl8). Computational Genomics Summer Institute 2016.
+- Beck K, et al. (2001) [Manifesto for agile software development](https://agilemanifesto.org/).

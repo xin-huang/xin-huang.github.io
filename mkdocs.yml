@@ -52,4 +52,4 @@ nav:
   - Selected Publications: 'publications.md'
   - Selected Software: 'software.md'
   - Development Guideline: 'development.md'
-  - Human Learning: 'learning.md'
+    #- Human Learning: 'learning.md'
