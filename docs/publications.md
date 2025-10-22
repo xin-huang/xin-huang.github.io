@@ -2,7 +2,25 @@
 
 \* Corresponding author
 
+---
+
 ## Research
+
+<div class="citation-row">
+  <!-- Citation Text -->
+  <div class="citation-text">
+    <strong>•</strong> <strong>Huang X</strong>&ast;, Chen S, Hackl J, Kuhlwilm M. 2025. SAI: A Python package for statistics for adaptive introgression. Accepted by <i>Molecular Biology and Evolution</i>.
+  </div>
+  <!-- PlumX Badge -->
+  <div class="badge-container">
+  </div>
+  <!-- Dimensions Badge -->
+  <div class="badge-container">
+  </div>
+  <!-- Altmetric Badge -->
+  <div class="badge-container">
+  </div>
+</div>
 
 <div class="citation-row">
   <!-- Citation Text -->
@@ -73,6 +91,8 @@
   </div>
 </div>
 
+---
+
 ## Reviews
 
 <div class="citation-row">
@@ -120,6 +140,8 @@
     <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="153734856"></div>
   </div>
 </div>
+
+---
 
 ## Comments
 
