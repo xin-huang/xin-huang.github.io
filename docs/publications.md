@@ -9,13 +9,17 @@
 <div class="citation-row">
   <!-- Citation Text -->
   <div class="citation-text">
-    <strong>•</strong> <strong>Huang X</strong>&ast;, Chen S, Hackl J, Kuhlwilm M. 2025. SAI: A Python package for statistics for adaptive introgression. Accepted by <i>Molecular Biology and Evolution</i>.
+    <strong>•</strong> <strong>Huang X</strong>&ast;, Chen S, Hackl J, Kuhlwilm M&ast;. 2025. SAI: A Python package for statistics for adaptive introgression. Accepted by <i>Molecular Biology and Evolution</i>.
   </div>
   <!-- PlumX Badge -->
   <div class="badge-container">
+    <a href="https://plu.mx/plum/a/?doi=10.1093%2Fmolbev%2Fmsaf295" data-popup="left" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true"></a>
+    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
   </div>
   <!-- Dimensions Badge -->
   <div class="badge-container">
+    <span class="__dimensions_badge_embed__" data-doi="10.1093/molbev/msaf295"></span>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
   </div>
   <!-- Altmetric Badge -->
   <div class="badge-container">
