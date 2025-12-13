@@ -56,8 +56,26 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 
 ---
 
+## 7. System-Level Development Principles
+
+- Software developed in a project should be treated as part of a **coherent system**, not as a collection of independent components.
+- Existing code establishes **implicit contracts**, including:
+    - Interfaces (inputs/outputs)
+    - Data semantics
+    - Structural assumptions
+    - Downstream dependencies
+- When adding new functionality, contributors are expected to:
+    - **Align with existing abstractions and structure** rather than introducing parallel or ad hoc designs.
+    - **Prioritize integrating new components seamlessly with existing ones**; changes elsewhere should be considered only when necessary.
+    - Distinguish clearly between:
+        - Decisions that can be made locally (implementation details), and
+        - Decisions that affect the system as a whole (interfaces, structure, semantics).
+    - Implementing a feature in isolation, without considering how it fits into the surrounding system, is considered **incomplete development**.
+    - If the intended integration or alignment is unclear, contributors should **seek clarification before implementation**, not after.
+
 ## References
 
 - Beck K, et al. (2001) [Manifesto for agile software development](https://agilemanifesto.org/).
-- Wilson G, et al. (2014) [Best practices for scientific computing](https://doi.org/10.1371/journal.pbio.1001745). *PLoS Biology* **12**: e1001745.
+- Brooks F. (1975) [*The Mythical Man-Month: Essays on Software Engineering*](https://web.eecs.umich.edu/~weimerw/2018-481/readings/mythical-man-month.pdf). Addison-Wesley.
 - Browning B. (2016) [An introduction to genotype imputation](https://www.youtube.com/watch?v=-oUvXXg6tl8). Computational Genomics Summer Institute 2016 at the Institute for Pure and Applied Mathematics.
+- Wilson G, et al. (2014) [Best practices for scientific computing](https://doi.org/10.1371/journal.pbio.1001745). *PLoS Biology* **12**: e1001745.
