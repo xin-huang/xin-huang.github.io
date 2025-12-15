@@ -56,7 +56,7 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 
 ---
 
-## 7. System-Level Development Principles
+## 7. System-Level Thinking
 
 - Software developed in a project should be treated as part of a **coherent system**, not as a collection of independent components.
 - Existing code establishes **implicit contracts**, including:
