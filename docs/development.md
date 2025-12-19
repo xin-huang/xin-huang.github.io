@@ -71,7 +71,7 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
         - Decisions that can be made locally (implementation details), and
         - Decisions that affect the system as a whole (interfaces, structure, semantics).
     - Implementing a feature in isolation, without considering how it fits into the surrounding system, is considered **incomplete development**.
-    - If the intended integration or alignment is unclear, contributors should **seek clarification before implementation**, not after.
+    - If the intended integration or alignment is unclear, contributors should **seek clarification before implementation**, not after. [Good example](https://github.com/xin-huang/sstar/issues/35) by [@andreabio](https://github.com/andreabio). 
 
 ## References
 
