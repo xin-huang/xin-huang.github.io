@@ -2,7 +2,7 @@ site_name: Xin Huang, PhD
 site_url: https://xin-huang.github.io/
 repo_url: https://xin-huang.github.io/cv/Xin_Huang_CV.pdf
 repo_name: CV
-copyright: Copyright &copy; 2017–2025 Xin Huang
+copyright: Copyright &copy; 2017–2026 Xin Huang
 theme:
   name: material
   favicon: assets/favicon.png
