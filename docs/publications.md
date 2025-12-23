@@ -146,29 +146,3 @@
     <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="153734856"></div>
   </div>
 </div>
-
----
-
-## Comments
-
-<div class="citation-row">
-  <!-- Citation Text -->
-  <div class="citation-text">
-    <strong>•</strong> Hackl J, <strong>Huang X</strong>&ast;. 2025. <a href="https://doi.org/10.1016/j.meegid.2024.105708" target="_blank">Revisiting adaptive introgression at the HLA genes in Lithuanian genomes with machine learning.</a> <i>Infection, Genetics and Evolution</i> <strong>127</strong>: 105708.
-  </div>
-  <!-- PlumX Badge -->
-  <div class="badge-container">
-    <a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.meegid.2024.105708" data-popup="left" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true"></a>
-    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-  </div>
-  <!-- Dimensions Badge -->
-  <div class="badge-container">
-    <span class="__dimensions_badge_embed__" data-doi="10.1016/j.meegid.2024.105708"></span>
-    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-  </div>
-  <!-- Altmetric Badge -->
-  <div class="badge-container">
-    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-    <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="172523570"></div>
-  </div>
-</div>
