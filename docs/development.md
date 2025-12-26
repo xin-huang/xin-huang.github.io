@@ -36,6 +36,8 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 
 - Update your code regularly in small, manageable chunks.
 - Avoid large, monolithic commits because they are harder to review and debug.
+    - Example of an unreviewable PR (**avoid**)
+![large_pr](images/large_pr.png)
 - (Optional) Follow the [Conventional Commits](https://www.conventionalcommits.org/) style for consistency.
 
 ---
