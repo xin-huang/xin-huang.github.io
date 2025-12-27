@@ -47,6 +47,7 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 - Open a **Pull Request (PR)** when contributing to the `main` branch.
 - A reviewer will be notified, review your code, and provide feedback.
 - Revise your code based on the feedback before merging into `main`.
+- **Keep each PR focused on one clear topic**. Avoid bundling unrelated changes into a single PR.
 
 ---
 
