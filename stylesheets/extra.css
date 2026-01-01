@@ -43,6 +43,17 @@
   display: inline-block;
 }
 
+.badge-ul { padding-left: 1.2em; margin: 0; }
+.badge-ul > li{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 0.75rem;
+  align-items: start;
+}
+.badge-ul > li > :first-child{
+  min-width: 0;
+}
+
 .vertical-rl {
   writing-mode: vertical-rl;
   text-orientation: upright;
