@@ -53,3 +53,10 @@
   float: right;
   margin-left: 0;
 }
+
+table.no-borders, table.no-borders td, table.no-borders th {
+  border: none !important;
+}
+table.no-borders {
+  border-collapse: collapse;
+}
