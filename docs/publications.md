@@ -146,3 +146,15 @@
     <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="153734856"></div>
   </div>
 </div>
+
+---
+
+## Preprints
+
+<div class="citation-row">
+<!-- Citation Text -->
+  <div class="citation-text">
+    <strong>•</strong> <strong>Huang X</strong>&ast;, Chen S, Han S, Kuhlwilm M&ast;. 2025. <a href="https://doi.org/10.1101/2025.08.29.673040" target="_blank">
+    Genomic landscapes of natural selection in great apes</a> bioRixv: 2025.08.29.673040.
+  </div>
+</div>
