@@ -36,8 +36,6 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 
 - Update your code regularly in small, manageable chunks.
 - Avoid large, monolithic commits because they are harder to review and debug.
-    - Example of an unreviewable PR (**avoid**)
-![large_pr](images/large_pr.png)
 - (Optional) Follow the [Conventional Commits](https://www.conventionalcommits.org/) style for consistency.
 
 ---
@@ -75,8 +73,8 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
         - Decisions that affect the system as a whole (interfaces, structure, semantics).
     - Implementing a feature in isolation, without considering how it fits into the surrounding system, is considered **incomplete development**.
     - If the intended integration or alignment is unclear, contributors should **seek clarification before implementing changes**. Independent work means owning delivery within agreed boundaries: contributors may decide implementation details, but **must communicate early** when changes affect interfaces, definitions, outputs, thresholds, interpretation, or other people’s work. **Avoid silent behavioral changes**, especially those that alter semantics or downstream results. 
-        - [Good example](https://github.com/xin-huang/sstar/issues/35) by [@andreabio](https://github.com/andreabio).
-        - [Good example](https://github.com/xin-huang/selscape/issues/6) by [@nomis-c](https://github.com/nomis-c). 
+
+---
 
 ## References
 
