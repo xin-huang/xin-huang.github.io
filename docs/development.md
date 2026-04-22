@@ -82,6 +82,7 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 - Brooks F. [*The Mythical Man-Month: Essays on Software Engineering*](https://web.eecs.umich.edu/~weimerw/2018-481/readings/mythical-man-month.pdf). Addison-Wesley.
 - Browning B. [An introduction to genotype imputation](https://www.youtube.com/watch?v=-oUvXXg6tl8). Computational Genomics Summer Institute 2016 at the Institute for Pure and Applied Mathematics.
 - Google. [Google Style Guides](https://google.github.io/styleguide/).
+- Lopopolo R. [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/). OpenAI.
 - Peters T. [The Zen of Python](https://peps.python.org/pep-0020/). Python Software Foundation.
 - Shannon C. [Creative Thinking](https://www.cs.bilkent.edu.tr/~canf/CS533/claude-shannon-creative-thinking.pdf). Bell Lab.
 - Wilson G, et al. [Best practices for scientific computing](https://doi.org/10.1371/journal.pbio.1001745). *PLoS Biology* **12**: e1001745.
