@@ -512,6 +512,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#8-working-with-ai-coding-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Working with AI Coding Agents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -634,6 +645,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#8-working-with-ai-coding-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Working with AI Coding Agents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -713,26 +735,23 @@
 <hr />
 <h2 id="7-system-level-thinking">7. System-Level Thinking</h2>
 <ul>
-<li>Software developed in a project should be treated as part of a <strong>coherent system</strong>, not as a collection of independent components.</li>
-<li>Existing code establishes <strong>implicit contracts</strong>, including:<ul>
-<li>Interfaces (inputs/outputs)</li>
-<li>Data semantics</li>
-<li>Structural assumptions</li>
-<li>Downstream dependencies</li>
+<li>Treat the project as a <strong>coherent system</strong>, not a collection of independent components.</li>
+<li><strong>Align with existing abstractions and structure</strong> — avoid introducing parallel or ad hoc designs.</li>
+<li>Before implementing, understand the <strong>implicit contracts</strong> in the codebase: interfaces, data semantics, structural assumptions, and downstream dependencies.</li>
+<li>Distinguish between <strong>local decisions</strong> (implementation details) and <strong>system-wide decisions</strong> (interfaces, structure, semantics). The latter require team communication.</li>
+<li><strong>Communicate early</strong> when your changes affect interfaces, outputs, thresholds, or other people's work. Avoid silent behavioral changes.</li>
+<li>If the intended integration is unclear, <strong>ask before implementing</strong>.</li>
 </ul>
-</li>
-<li>When adding new functionality, contributors are expected to:<ul>
-<li><strong>Align with existing abstractions and structure</strong> rather than introducing parallel or ad hoc designs.</li>
-<li><strong>Prioritize integrating new components seamlessly with existing ones</strong>; changes elsewhere should be considered only when necessary.</li>
-<li>Distinguish clearly between:<ul>
-<li>Decisions that can be made locally (implementation details), and</li>
-<li>Decisions that affect the system as a whole (interfaces, structure, semantics).</li>
-</ul>
-</li>
-<li>Implementing a feature in isolation, without considering how it fits into the surrounding system, is considered <strong>incomplete development</strong>.</li>
-<li>If the intended integration or alignment is unclear, contributors should <strong>seek clarification before implementing changes</strong>. Independent work means owning delivery within agreed boundaries: contributors may decide implementation details, but <strong>must communicate early</strong> when changes affect interfaces, definitions, outputs, thresholds, interpretation, or other people’s work. <strong>Avoid silent behavioral changes</strong>, especially those that alter semantics or downstream results. </li>
-</ul>
-</li>
+<hr />
+<h2 id="8-working-with-ai-coding-agents">8. Working with AI Coding Agents</h2>
+<ul>
+<li>AI coding agents (e.g., Claude Code, Codex, Cursor, GitHub Copilot) are <strong>productivity tools, not decision-makers</strong>. The developer is responsible for all code that gets committed.</li>
+<li><strong>Always review AI-generated code</strong> before committing. Check for correctness, edge cases, security issues, and alignment with existing code structure.</li>
+<li>AI-generated code must meet the <strong>same standards</strong> outlined in Sections 1–7. AI agents lack full project context — the developer is responsible for ensuring compliance.</li>
+<li>AI agents tend to <strong>over-engineer</strong>. Watch for unnecessary abstractions, excessive indirection, and overly complex solutions to simple problems. Prefer simple, readable code.</li>
+<li>Use AI agents for <strong>well-scoped tasks</strong>: writing boilerplate, generating tests, drafting docstrings, exploring implementation options. Avoid delegating system-wide design decisions to them.</li>
+<li>When using AI agents in collaborative workflows, <strong>note it in your PR description</strong> so reviewers can apply appropriate scrutiny.</li>
+<li><strong>Do not paste sensitive data</strong> (credentials, API keys, internal datasets) into AI tools that are not approved for use with confidential information.</li>
 </ul>
 <hr />
 <h2 id="references">References</h2>
