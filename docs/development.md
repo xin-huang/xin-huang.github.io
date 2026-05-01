@@ -59,20 +59,23 @@ To maintain code quality, ensure consistency, and enable smooth collaboration ac
 
 ## 7. System-Level Thinking
 
-- Software developed in a project should be treated as part of a **coherent system**, not as a collection of independent components.
-- Existing code establishes **implicit contracts**, including:
-    - Interfaces (inputs/outputs)
-    - Data semantics
-    - Structural assumptions
-    - Downstream dependencies
-- When adding new functionality, contributors are expected to:
-    - **Align with existing abstractions and structure** rather than introducing parallel or ad hoc designs.
-    - **Prioritize integrating new components seamlessly with existing ones**; changes elsewhere should be considered only when necessary.
-    - Distinguish clearly between:
-        - Decisions that can be made locally (implementation details), and
-        - Decisions that affect the system as a whole (interfaces, structure, semantics).
-    - Implementing a feature in isolation, without considering how it fits into the surrounding system, is considered **incomplete development**.
-    - If the intended integration or alignment is unclear, contributors should **seek clarification before implementing changes**. Independent work means owning delivery within agreed boundaries: contributors may decide implementation details, but **must communicate early** when changes affect interfaces, definitions, outputs, thresholds, interpretation, or other people’s work. **Avoid silent behavioral changes**, especially those that alter semantics or downstream results. 
+- Treat the project as a **coherent system**, not a collection of independent components.
+- **Align with existing abstractions and structure** — avoid introducing parallel or ad hoc designs.
+- Before implementing, understand the **implicit contracts** in the codebase: interfaces, data semantics, structural assumptions, and downstream dependencies.
+- Distinguish between **local decisions** (implementation details) and **system-wide decisions** (interfaces, structure, semantics). The latter require team communication.
+- **Communicate early** when your changes affect interfaces, outputs, thresholds, or other people's work. Avoid silent behavioral changes.
+- If the intended integration is unclear, **ask before implementing**.
+
+---
+
+## 8. Working with AI Coding Agents
+
+- AI coding agents (e.g., Claude Code, Codex, Cursor) are **productivity tools, not decision-makers**. The developer is responsible for all code that gets committed.
+- **Always review AI-generated code** before committing. It must meet the same standards outlined in Sections 1–7.
+- AI agents tend to **over-engineer**. Watch for unnecessary abstractions, excessive indirection, and overly complex solutions to simple problems. Prefer simple, readable code.
+- Use AI agents for **well-scoped tasks**: writing boilerplate, generating tests, drafting docstrings, exploring implementation options. Avoid delegating system-wide design decisions to them.
+- When using AI agents in collaborative workflows, **note it in your PR description** so reviewers can apply appropriate scrutiny.
+- **Do not paste sensitive data** (credentials, API keys, internal datasets) into AI tools that are not approved for use with confidential information.
 
 ---
 
