@@ -17,4 +17,8 @@
     <td><strong>•</strong> <a href="https://github.com/xin-huang/selscape" target="_blank">selscape</a>: Snakemake Workflow for Investigating Genomic Landscapes of Natural Selection</td>
     <td align="right"><a href="https://xin-huang.github.io/selscape" target="_blank"><img alt="selscape-manual" src="https://img.shields.io/badge/Manual-green?style=for-the-badge"></a></td>
   </tr>
+  <tr>
+    <td><strong>•</strong> <a href="https://github.com/xin-huang/gaishi" target="_blank">gaishi</a>: Genomic Analysis of Introgressed-Site and -Haplotype Identification</td>
+    <td align="right"><a href="https://xin-huang.github.io/gaishi" target="_blank"><img alt="gaishi-manual" src="https://img.shields.io/badge/Manual-blue?style=for-the-badge"></a></td>
+  </tr>
 </table>
