@@ -27,17 +27,31 @@
   </div>
 </div>
 
-<div class="citation-row">
-  <!-- Citation Text -->
-  <div class="citation-text">
-    <strong>•</strong> <strong>Huang X</strong>&ast;, Chen S, Han S, Kuhlwilm M&ast;. 2025. <a href="https://doi.org/10.1101/2025.08.29.673040" target="_blank">Genomic landscapes of natural selection in great apes.</a> bioRxiv: 2025.08.29.673040.
-  </div>
-</div>
-
 ---
 
 ## Research
 
+<div class="citation-row">
+  <!-- Citation Text -->
+  <div class="citation-text">
+    <strong>•</strong> <strong>Huang X</strong>&ast;, Chen S, Han S, Kuhlwilm M&ast;. 2026. <a href="https://doi.org/10.1186/s13059-026-04247-z" target="_blank">Genomic landscapes of natural selection in great apes.</a> <i>Genome Biology</i>.
+  </div>
+  <!-- PlumX Badge -->
+  <div class="badge-container">
+    <a href="https://plu.mx/plum/a/?doi=10.1186%2Fs13059-026-04247-z" data-popup="left" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true"></a>
+    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+  </div>
+  <!-- Dimensions Badge -->
+  <div class="badge-container">
+    <span class="__dimensions_badge_embed__" data-doi="10.1186/s13059-026-04247-z"></span>
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+  </div>
+  <!-- Altmetric Badge -->
+  <div class="badge-container">
+    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+    <div class="altmetric-embed" data-badge-type="donut" data-doi="10.1186/s13059-026-04247-z"></div>
+  </div>
+</div>
 <div class="citation-row">
   <!-- Citation Text -->
   <div class="citation-text">
