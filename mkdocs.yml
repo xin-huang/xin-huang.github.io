@@ -10,6 +10,7 @@ theme:
   custom_dir: overrides
   features:
     - announce.dismiss
+    - content.tooltips
   palette:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: light)"
