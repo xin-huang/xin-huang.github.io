@@ -62,7 +62,7 @@ table.no-borders {
 }
 
 .md-tooltip2[role="tooltip"] > .md-tooltip2__inner {
-  max-width: min(600px, calc(100vw - 32px));
+  max-width: min(500px, calc(100vw - 32px));
   max-height: 60vh;
   overflow-y: auto;
   white-space: normal;
