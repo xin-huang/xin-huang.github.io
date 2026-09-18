@@ -60,3 +60,13 @@ table.no-borders, table.no-borders td, table.no-borders th {
 table.no-borders {
   border-collapse: collapse;
 }
+
+.md-tooltip2[role="tooltip"] > .md-tooltip2__inner {
+  max-width: min(600px, calc(100vw - 32px));
+  max-height: 60vh;
+  overflow-y: auto;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  pointer-events: auto;
+  user-select: text;
+}
