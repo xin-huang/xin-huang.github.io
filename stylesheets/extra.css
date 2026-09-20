@@ -70,3 +70,18 @@ table.no-borders {
   pointer-events: auto;
   user-select: text;
 }
+
+.citation-year {
+  flex: 0 0 4ch;
+  align-self: flex-start;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.citation-year + .citation-text {
+  align-self: flex-start;
+  min-width: 0;
+  padding-left: 0;
+  overflow-wrap: anywhere;
+}
