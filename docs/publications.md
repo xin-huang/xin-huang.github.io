@@ -10,23 +10,7 @@
   <div class="citation-year">2026</div>
   <!-- Citation Text -->
   <div class="citation-text">
-    Koça A, Stöckl A, Chen S, Kuhlwilm M&ast;, <strong>Huang X</strong>&ast;. <a href="https://doi.org/10.64898/2026.05.31.729079" target="_blank">sstar2: A Python package for <i>S</i>*-based archaic introgression detection with machine learning.</a> bioRxiv: 2026.05.31.729079.
-  </div>
-</div>
-
-<div class="citation-row">
-  <div class="citation-year">2026</div>
-  <!-- Citation Text -->
-  <div class="citation-text">
     Chen S, <strong>Huang X</strong>&ast;. <a href="https://doi.org/10.64898/2026.02.28.708717" target="_blank">selscape: A Snakemake workflow for investigating genomic landscapes of natural selection.</a> bioRxiv: 2026.02.28.708717.
-  </div>
-</div>
-
-<div class="citation-row">
-  <div class="citation-year">2026</div>
-  <!-- Citation Text -->
-  <div class="citation-text">
-    <strong>Huang X</strong>&ast;, Hackl J, Pawar H, Kuhlwilm M&ast;. <a href="https://doi.org/10.64898/2026.01.31.703038" target="_blank">GAISHI: A Python package for detecting ghost introgression with machine learning.</a> bioRxiv: 2026.01.31.703038.
   </div>
 </div>
 
