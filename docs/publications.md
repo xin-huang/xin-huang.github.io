@@ -41,55 +41,6 @@
     <div class="altmetric-embed" data-badge-type="donut" data-doi="10.1186/s13059-026-04247-z"></div>
   </div>
 </div>
-<div class="citation-row">
-  <div class="citation-year">2025</div>
-  <!-- Citation Text -->
-  <div class="citation-text">
-    <strong>Huang X</strong>&ast;, Chen S, Hackl J, Kuhlwilm M&ast;. 
-    <a href="https://doi.org/10.1093/molbev/msaf295" target="_blank" title="Adaptive introgression is an important evolutionary process, which can be identified with widely used summary statistics, such as the number of uniquely shared sites and the quantile of the derived allele frequencies in such sites. However, these as well as more recently developed statistics such as &lt;i&gt;D&lt;/i&gt;&lt;sup&gt;+&lt;/sup&gt; and &lt;i&gt;D&lt;/i&gt;&lt;sub&gt;anc&lt;/sub&gt;, still lack accessible implementations. Here, we present SAI, a Python package for computing these statistics along with a new statistic, &lt;i&gt;D&lt;/i&gt;&lt;sub&gt;&lt;i&gt;D&lt;/i&gt;&lt;/sub&gt;, and demonstrate its application on 2 datasets. First, using the 1000 Genomes Project data, we replicated previously reported candidate regions and identified additional ones, including a region detected by studies using supervised deep learning. Second, we investigated bonobo introgression into central chimpanzees and identified candidate genes, finding one region that overlaps a high-frequency Denisovan-introgressed haplotype block reported in modern Papuans. This is an intriguing co-occurrence across divergent lineages, underscoring the role of adaptive introgression in evolution.">
-    SAI: A Python package for statistics for adaptive introgression.</a> <i>Molecular Biology and Evolution</i> <strong>42</strong>: msaf295.
-  </div>
-  <!-- PlumX Badge -->
-  <div class="badge-container">
-    <a href="https://plu.mx/plum/a/?doi=10.1093%2Fmolbev%2Fmsaf295" data-popup="left" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true"></a>
-    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-  </div>
-  <!-- Dimensions Badge -->
-  <div class="badge-container">
-    <span class="__dimensions_badge_embed__" data-doi="10.1093/molbev/msaf295"></span>
-    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-  </div>
-  <!-- Altmetric Badge -->
-  <div class="badge-container">
-    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-    <div class="altmetric-embed" data-badge-type="donut" data-doi="10.1093/molbev/msaf295"></div>
-  </div>
-</div>
-
-<div class="citation-row">
-  <div class="citation-year">2022</div>
-  <!-- Citation Text -->
-  <div class="citation-text">
-    <strong>Huang X</strong>&ast;, Kruisz P, Kuhlwilm M&ast;. 
-    <a href="https://doi.org/10.1093/molbev/msac212" target="_blank" title="&lt;i&gt;S&lt;/i&gt;&ast; is a widely used statistic for detecting archaic admixture from population genetic data. Previous studies used freezing-archer to apply &lt;i&gt;S&lt;/i&gt;&ast;, which is only directly applicable to the specific case of Neanderthal and Denisovan introgression in Papuans. Here, we implemented sstar for a more general purpose. Compared with several tools, including SPrime, SkovHMM, and ArchaicSeeker2.0, for detecting introgressed fragments with simulations, our results suggest that sstar is robust to differences in demographic models, including ghost introgression and two-source introgression. We believe sstar will be a useful tool for detecting introgressed fragments in various scenarios and in non-human species.">
-    sstar: A Python package for detecting archaic introgression from population genetic data with <i>S</i>*.</a> <i>Molecular Biology and Evolution</i> <strong>39</strong>: msac212.
-  </div>
-  <!-- PlumX Badge -->
-  <div class="badge-container">
-    <a href="https://plu.mx/plum/a/?doi=10.1093%2Fmolbev%2Fmsac212" data-popup="left" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true"></a>
-    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-  </div>
-  <!-- Dimensions Badge -->
-  <div class="badge-container">
-    <span class="__dimensions_badge_embed__" data-doi="10.1093/molbev/msac212"></span>
-    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-  </div>
-  <!-- Altmetric Badge -->
-  <div class="badge-container">
-    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-    <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="136681267"></div>
-  </div>
-</div>
 
 <div class="citation-row">
   <div class="citation-year">2021</div>
