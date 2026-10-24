@@ -6,6 +6,7 @@
   text-align: center;
   font-size: 14px;
   font-family: "STFangsong", "FangSong_GB2312", "FangSong", "Apple LiSung Light";
+  white-space: nowrap;
 }
 
 .altmetric-embed {
@@ -84,4 +85,14 @@ table.no-borders {
   min-width: 0;
   padding-left: 0;
   overflow-wrap: anywhere;
+}
+
+.poem-mobile-break {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .poem-mobile-break {
+    display: inline;
+  }
 }
