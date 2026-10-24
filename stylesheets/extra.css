@@ -95,3 +95,13 @@ table.no-borders {
     display: inline;
   }
 }
+
+.md-banner__inner {
+  position: relative;
+}
+
+.md-banner__button {
+  position: absolute;
+  top: 0;
+  right: 0.8rem;
+}
