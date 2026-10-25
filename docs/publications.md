@@ -97,31 +97,6 @@
 ## Reviews
 
 <div class="citation-row">
-  <div class="citation-year">2025</div>
-  <!-- Citation Text -->
-  <div class="citation-text">
-    <strong>Huang X</strong>&ast;, Hackl J, Kuhlwilm M&ast;.
-    <a href="https://doi.org/10.1016/j.tig.2025.07.001" target="_blank" title="Genomic landscapes of introgression provide valuable information on how different evolutionary processes interact and leave signatures in genomes. The recent expansion of genomic datasets across diverse taxa, together with advances in methodological development, have created new opportunities to investigate the impact of introgression along individual genomes in various clades, making the precise identification of introgressed loci a rapidly evolving area of research. In this review we summarize recent methodological progress within three major categories: summary statistics, probabilistic modeling, and supervised learning. We examine how these approaches have been applied to data beyond humans and discuss the challenges associated with their application. Finally, we outline future directions for each category, including accessible implementation, transparent analysis, and systematic benchmarking.">
-    Decoding genomic landscapes of introgression.</a> <i>Trends in Genetics</i> <strong>41</strong>: 1096–1108.
-  </div>
-  <!-- PlumX Badge -->
-  <div class="badge-container">
-    <a href="https://plu.mx/plum/a/?doi=10.1016%2Fj.tig.2025.07.001" data-popup="left" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true"></a>
-    <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-  </div>
-  <!-- Dimensions Badge -->
-  <div class="badge-container">
-    <span class="__dimensions_badge_embed__" data-doi="10.1016/j.tig.2025.07.001"></span>
-    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-  </div>
-  <!-- Altmetric Badge -->
-  <div class="badge-container">
-    <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-    <div class="altmetric-embed" data-badge-type="donut" data-altmetric-id="179575388"></div>
-  </div>
-</div>
-
-<div class="citation-row">
   <div class="citation-year">2024</div>
   <!-- Citation Text -->
   <div class="citation-text">
